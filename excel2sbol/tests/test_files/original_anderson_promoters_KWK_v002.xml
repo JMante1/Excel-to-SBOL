@@ -1,0 +1,442 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/">
+  <sbol:Sequence rdf:about="http://examples.org/J23103_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns1:title>J23103 Sequence</ns1:title>
+    <sbol:displayId>J23103_sequence</sbol:displayId>
+    <sbol:elements>ctgatagctagctcagtcctagggattatgctagc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23103_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23100_sequence/1">
+    <sbol:elements>ttgacggctagctcagtcctaggtacagtgctagc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23100_sequence"/>
+    <sbol:displayId>J23100_sequence</sbol:displayId>
+    <ns1:title>J23100 Sequence</ns1:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23109_sequence/1">
+    <sbol:displayId>J23109_sequence</sbol:displayId>
+    <ns1:title>J23109 Sequence</ns1:title>
+    <sbol:elements>tttacagctagctcagtcctagggactgtgctagc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23109_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23104_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ttgacagctagctcagtcctaggtattgtgctagc</sbol:elements>
+    <sbol:displayId>J23104_sequence</sbol:displayId>
+    <ns1:title>J23104 Sequence</ns1:title>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23104_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23111_sequence/1">
+    <sbol:elements>ttgacggctagctcagtcctaggtatagtgctagc</sbol:elements>
+    <sbol:displayId>J23111_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23111_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns1:title>J23111 Sequence</ns1:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23101/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns1:title>J23101</ns1:title>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>J23101</sbol:displayId>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23101"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23101_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23101"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23118/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23118"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23118"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns1:title>J23118</ns1:title>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23118_sequence/1"/>
+    <sbol:displayId>J23118</sbol:displayId>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <sbol:version>1</sbol:version>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23109/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23109"/>
+    <ns1:title>J23109</ns1:title>
+    <sbol:displayId>J23109</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/J23109_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23109"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23105/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23105"/>
+    <ns1:title>J23105</ns1:title>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23105"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>J23105</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/J23105_sequence/1"/>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/J23108_sequence/1">
+    <sbol:elements>ctgacagctagctcagtcctaggtataatgctagc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23108_sequence"/>
+    <ns1:title>J23108 Sequence</ns1:title>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>J23108_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23119_sequence/1">
+    <sbol:elements>ttgacagctagctcagtcctaggtataatgctagc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23119_sequence"/>
+    <sbol:displayId>J23119_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns1:title>J23119 Sequence</ns1:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23119/1">
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns1:title>J23119</ns1:title>
+    <sbol:sequence rdf:resource="http://examples.org/J23119_sequence/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23119"/>
+    <sbol:displayId>J23119</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23119"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/J23110_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>J23110_sequence</sbol:displayId>
+    <sbol:elements>tttacggctagctcagtcctaggtacaatgctagc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23110_sequence"/>
+    <ns1:title>J23110 Sequence</ns1:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23118_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23118_sequence"/>
+    <ns1:title>J23118 Sequence</ns1:title>
+    <sbol:displayId>J23118_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ttgacggctagctcagtcctaggtattgtgctagc</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23110/1">
+    <ns1:title>J23110</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23110"/>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23110"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23110_sequence/1"/>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <sbol:displayId>J23110</sbol:displayId>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23102/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23102"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns1:title>J23102</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23102"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:displayId>J23102</sbol:displayId>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <sbol:sequence rdf:resource="http://examples.org/J23102_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/J23105_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23105_sequence"/>
+    <sbol:version>1</sbol:version>
+    <ns1:title>J23105 Sequence</ns1:title>
+    <sbol:elements>tttacggctagctcagtcctaggtactatgctagc</sbol:elements>
+    <sbol:displayId>J23105_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23113/1">
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23113"/>
+    <sbol:version>1</sbol:version>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <sbol:sequence rdf:resource="http://examples.org/J23113_sequence/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23113"/>
+    <ns1:title>J23113</ns1:title>
+    <sbol:displayId>J23113</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23100/1">
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23100_sequence/1"/>
+    <sbol:displayId>J23100</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23100"/>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns1:title>J23100</ns1:title>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23100"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/J23112_sequence/1">
+    <sbol:displayId>J23112_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23112_sequence"/>
+    <sbol:elements>ctgatagctagctcagtcctagggattatgctagc</sbol:elements>
+    <ns1:title>J23112 Sequence</ns1:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23106/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23106_sequence/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23106"/>
+    <ns1:title>J23106</ns1:title>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <sbol:displayId>J23106</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23106"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/J23114_sequence/1">
+    <sbol:displayId>J23114_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tttatggctagctcagtcctaggtacaatgctagc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns1:title>J23114 Sequence</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23114_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23115_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23115_sequence"/>
+    <sbol:displayId>J23115_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tttatagctagctcagcccttggtacaatgctagc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns1:title>J23115 Sequence</ns1:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23104/1">
+    <sbol:displayId>J23104</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23104"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <ns1:title>J23104</ns1:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23104_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23104"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23115/1">
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23115"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23115_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns1:title>J23115</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23115"/>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <sbol:displayId>J23115</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/J23102_sequence/1">
+    <sbol:elements>ttgacagctagctcagtcctaggtactgtgctagc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23102_sequence"/>
+    <sbol:displayId>J23102_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns1:title>J23102 Sequence</ns1:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23113_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>J23113_sequence</sbol:displayId>
+    <ns1:title>J23113 Sequence</ns1:title>
+    <sbol:elements>ctgatggctagctcagtcctagggattatgctagc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23113_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23116_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23116_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns1:title>J23116 Sequence</ns1:title>
+    <sbol:elements>ttgacagctagctcagtcctagggactatgctagc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>J23116_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23117_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns1:title>J23117 Sequence</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23117_sequence"/>
+    <sbol:elements>ttgacagctagctcagtcctagggattgtgctagc</sbol:elements>
+    <sbol:displayId>J23117_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23107_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23107_sequence"/>
+    <sbol:version>1</sbol:version>
+    <ns1:title>J23107 Sequence</ns1:title>
+    <sbol:displayId>J23107_sequence</sbol:displayId>
+    <sbol:elements>tttacggctagctcagccctaggtattatgctagc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23117/1">
+    <sbol:sequence rdf:resource="http://examples.org/J23117_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23117"/>
+    <ns1:title>J23117</ns1:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:displayId>J23117</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23117"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23114/1">
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23114_sequence/1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23114"/>
+    <ns1:title>J23114</ns1:title>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>J23114</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23114"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23112/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns1:title>J23112</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23112"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:displayId>J23112</sbol:displayId>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23112"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/J23112_sequence/1"/>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/J23106_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns1:title>J23106 Sequence</ns1:title>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tttacggctagctcagtcctaggtatagtgctagc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23106_sequence"/>
+    <sbol:displayId>J23106_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23116/1">
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <sbol:displayId>J23116</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23116"/>
+    <ns1:title>J23116</ns1:title>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23116_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23116"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/J23101_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tttacagctagctcagtcctaggtattatgctagc</sbol:elements>
+    <ns1:title>J23101 Sequence</ns1:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23101_sequence"/>
+    <sbol:displayId>J23101_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23107/1">
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <sbol:sequence rdf:resource="http://examples.org/J23107_sequence/1"/>
+    <ns1:title>J23107</ns1:title>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23107"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23107"/>
+    <sbol:displayId>J23107</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23103/1">
+    <ns1:title>J23103</ns1:title>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23103_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23103"/>
+    <sbol:displayId>J23103</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23103"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23111/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns1:title>J23111</ns1:title>
+    <sbol:sequence rdf:resource="http://examples.org/J23111_sequence/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:displayId>J23111</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23111"/>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23111"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23108/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23108"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23108_sequence/1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:title>J23108</ns1:title>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>J23108</sbol:displayId>
+    <ns1:description>Constitutive promoter, part of Anderson series</ns1:description>
+    <ns0:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23108"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

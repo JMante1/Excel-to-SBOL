@@ -1,0 +1,1372 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://www.w3.org/ns/prov#">
+  <sbol:Sequence rdf:about="http://examples.org/Tnat1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tnat1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ctgcaactcctcaatgtgtcaattaactcttacttaatttatgtatatattttttatgtatatgcttatatgcatgcgcatatgctcataaaagatacattgttataggtcatttcttttccaagctacatctagc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>Tnat1_sequence</sbol:displayId>
+    <ns0:title>Tnat1 Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Ppgk1/1">
+    <sbol:sequence rdf:resource="http://examples.org/Ppgk1_sequence/1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:description>pgk1 promoter</ns0:description>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ppgk1"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <ns0:title>Ppgk1</ns0:title>
+    <sbol:displayId>Ppgk1</sbol:displayId>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Ppgk1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ppgk1_sequence"/>
+    <sbol:elements>tccctccttcttgaattgatgttaccctcataaagcacgtggcctcttatcgagaaagaaattaccgtcgctcgtgatttgtttgcaaaaagaacaaaactgaaaaaacccagacacgctcgacttcctgtgttcctattgattgcagcttccaatttcgtcacacaacaaggtcctagcgacggctcacaggttttgtaacaagcaatcgaaggttctggaatggcgggaaagggtttagtaccacatgctatgatgcccactgtgatctccagagcaaagttcgttcgatcgtactgttactctctctctttcaaacagaattgtccgaatcgtgtgacaacaacagcctgttctcacacactcttttcttctaaccaagggggtggtttagtttagtagaacctcgtgaaacttacatttacatatatataaacttgcataaattggtcaatgcaagaaatacatatttggtcttttctaattcgtagtttttcaagttcttagatgctttctttttctcttttttacagatcatcaaggaagtaattatctactttttacaacaaatataaaac</sbol:elements>
+    <ns0:title>Ppgk1 Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>Ppgk1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Ttal1_sequence/1">
+    <sbol:elements>ggaagtatctcggaaatattaatttaggccatgtccttatgcacgtttcttttgatacttacgggtacatgtacacaagtatatctatatatataaattaatgaaaatcccctatttatatatatgactttaacgagacagaacagttttttattttttatcctatttgatgaatgatacagtttcttattcacgtgttatacccacaccaaatccaatagcaataccggccatcacaatcactgtttcggcagcccctaagatcagacaaaacatccggaaccaccttaaatcaacgtc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>Ttal1_sequence</sbol:displayId>
+    <ns0:title>Ttal1 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ttal1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Prpl28/1">
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:displayId>Prpl28</sbol:displayId>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns0:description>rpl28 promoter</ns0:description>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Prpl28"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:title>Prpl28</ns0:title>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Prpl28_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Tvma16_sequence/1">
+    <ns0:title>Tvma16 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tvma16_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Tvma16_sequence</sbol:displayId>
+    <sbol:elements>cgctcaaaccaggcttttcttttccgtttttacgagctagataagcgcatccatatttactaatagatataatgagatatctgagatacatgtgtatgtatatatgcacgttttcttttattatctaaaaatcatattatattaagtaagagaaaaaaatgtacaactatataaatatatatttatttaaaatggttttgaatttttcctattctggttgatattgcccaaaagctattcagt</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/PTA_sequence/1">
+    <sbol:displayId>PTA_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PTA_sequence"/>
+    <ns0:title>PTA Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gcggatctgtttagcaccgtgcaggaaaaagtggcgggcaaagatgtgaaaattgtgtttccggaaggcctggatgaacgcattctggaagcggtgagcaaactggcgggcaacaaagtgctgaacccgattgtgattggcaacgaaaacgaaattcaggcgaaagcgaaagaactgaacctgaccctgggcggcgtgaaaatttatgatccgcatacctatgaaggcatggaagatctggtgcaggcgtttgtggaacgccgcaaaggcaaagcgaccgaagaacaggcgcgcaaagcgctgctggatgaaaactattttggcaccatgctggtgtataaaggcctggcggatggcctggtgagcggcgcggcgcatagcaccgcggataccgtgcgcccggcgctgcagattattaaaaccaaagaaggcgtgaaaaaaaccagcggcgtgtttattatggcgcgcggcgaagaacagtatgtgtttgcggattgcgcgattaacattgcgccggatagccaggatctggcggaaattgcgattgaaagcgcgaacaccgcgaaaatgtttgatattgaaccgcgcgtggcgatgctgagctttagcaccaaaggcagcgcgaaaagcgatgaaaccgaaaaagtggcggatgcggtgaaaattgcgaaagaaaaagcgccggaactgaccctggatggcgaatttcagtttgatgcggcgtttgtgccgagcgtggcggaaaaaaaagcgccggatagcgaaattaaaggcgatgcgaacgtgtttgtgtttccgagcctggaagcgggcaacattggctataaaattgcgcagcgcctgggcaactttgaagcggtgggcccgattctgcagggcctgaacatgccggtgaacgatctgagccgcggctgcaacgcggaagatgtgtataacctggcgctgattaccgcggcgcaggcgctg</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/_5int/1">
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/_5int"/>
+    <ns0:title>5int</ns0:title>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns0:description>int </ns0:description>
+    <sbol:sequence rdf:resource="http://examples.org/_5int_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000342"/>
+    <sbol:displayId>_5int</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/PYC_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PYC_sequence"/>
+    <sbol:displayId>PYC_sequence</sbol:displayId>
+    <sbol:elements>tcctcttccaagatcttggctggtttgagagacaacttttctttgttgggtgaaaagaacaagattttggtcgccaacagaggtgaaatcccaatcagaattttcagatctgctcacgaattgtctatgagaactatcgccatctactctcacgaagatagattatccatgcacagattgaaggctgatgaagcctacgttatcggtgaagaaggtcaatacaccccagtcggtgcttacttggccatggacgaaatcatcgaaattgccaagaagcacaaggtcgatttcatccacccaggttacggtttcttgtctgaaaactctgaatttgctgacaaggttgttaaggctggtattacctggattggtccaccagctgaagtcattgaatctgttggtgacaaggtttctgccagacatttggctgctcgtgccaacgttccaactgtcccaggtactccaggtcctatcgaaaccgttcaagaagctctagatttcgtcaatgaatacggttacccagttatcatcaaggctgctttcggtggtggtggtcgtggtatgagagttgtcagagaaggtgacgatgtcgctgatgctttccaaagagccacttctgaagctagaactgctttcggtaacggtacttgtttcgtcgaaagattcttggacaagccaaagcacattgaagttcaattattagctgacaaccacggtaacgttgtccacttgttcgaaagagactgttccgtccaaagacgtcaccaaaaggttgtcgaagttgctccagctaagactttaccaagagaagttagagatgctatcttgaccgatgccgttaagttggctaaggtttgtggttacagaaacgctggtactgctgaattcttggttgacaaccaaaacagacattacttcattgaaatcaacccaagaattcaagtcgaacacaccatcactgaagaaatcactggtattgacattgtctccgctcaaatccaaatcgccgctggtgctactttgactcaattaggtctattacaagacaaaatcaccaccagaggtttctctatccaatgtcgtatcaccactgaagatccatccaagaacttccaaccagacactggtcgtttggaagtctacagatccgctggtggtaacggtgtcagattggacggtggtaacgcctacgctggtgctaccatctctccacactacgactccatgttggttaagtgttcctgttctggttctacctacgaaattgtcagaagaaagatgatcagagctttgattgaattcagaatcagaggtgtcaagaccaacatcccattcttgttgactttgttgaccaacccagttttcattgaaggtacctactggaccactttcatcgatgacactccacaattgttccaaatggtttcctctcaaaacagagctcaaaaattgttgcactacttggctgacttggccgtcaacggttcctctatcaagggtcaaatcggtttaccaaagttgaagtccaacccttccgttccacatttgcacgatgctcaaggtaatgtcatcaacgttaccaaatctgccccaccatccggttggagacaagtcttgttggaaaagggtccatccgaatttgccaagcaagtcagacaattcaacggtactttgttgatggacaccacctggagagatgctcaccaatctttgctagctaccagagtcagaactcacgatttggccaccattgctccaaccactgctcacgctttggctggtgcctttgctttggaatgttggggtggtgctactttcgatgtcgccatgagattcttgcatgaggacccatgggaaagattgagaaaattgagatctttggtcccaaacattccattccaaatgttgttgagaggtgctaacggtgttgcttactcctctttgccagacaacgccattgaccatttcgttaagcaagccaaggacaatggtgttgacattttcagagtctttgacgctttgaacgacttggaacaattgaaggttggtgttaatgctgtcaagaaggctggtggtgttgtcgaagctaccgtttgttactctggtgacatgttgcaaccaggtaagaaatacaacttggactactacttagaagttgtcgaaaagatcgttcaaatgggtactcacatcttgggtatcaaggacatggctggtaccatgaagccagctgctgccaaattgttgattggttctttacgtaccagatacccagacttgccaatccacgttcactctcatgactccgctggtactgctgttgcttccatgactgcttgtgctttggccggtgctgatgttgttgacgttgccattaactccatgtccggtttgacctctcaaccatctattaacgctttgttggcctccttggaaggtaacattgacactggtatcaacgtcgaacacgttagagaattggacgcttactgggctgaaatgagattattatactcttgtttcgaagctgacttgaagggtccagaccctgaagtttaccaacacgaaattccaggtggtcaattgaccaacttgttgttccaagctcaacaattaggtctaggtgaacaatgggctgaaaccaagagagcttacagagaagctaactacttgttgggtgacattgttaaggtcaccccaacttctaaggtcgttggtgatttggctcaattcatggtttctaacaaattgacttctgatgacatcagaagattagctaactctttggacttcccagactccgttatggacttcttcgaaggtttgatcggtcaaccatacggtggtttcccagaaccattgagatccgatgttttgagaaacaagcgtcgtaaattgacttgtagaccaggtttagaattggaaccattcgatttggaaaagatcagagaagatttgcaaaacagattcggtgatatcgatgaatgtgatgttgcctcctacaacatgtatcctcgtgtctacgaagatttccaaaagattagagaaacttacggtgacttgtctgtcttaccaaccaagaacttcttggctccagctgaaccagacgaagaaatcgaagtcaccattgaacaaggtaagactttgattatcaaattacaagctgttggtgatttgaacaagaaaaccggtcaaagagaagtctacttcgaattgaacggtgaattgagaaagatcagagttgctgacaaatctcaaaacattcaatctgttgccaagccaaaggctgatgtccacgacacccaccaaatcggtgctccaatggctggtgtcatcattgaagtcaaggttcacaagggttctttggtcaagaagggtgaatctatcgccgttttgtctgctatgaagatggaaatggttgtttcctctccagctgatggtcaagtcaaagatgtctttatccgtgacggtgaatccgtcgatgcttctgacttgttggttgttttggaagaagaaactctaccaccttctcaaaagaaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>PYC Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tprm9/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:sequence rdf:resource="http://examples.org/Tprm9_sequence/1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tprm9"/>
+    <ns0:description>prm9 terminator</ns0:description>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns0:title>Tprm9</ns0:title>
+    <sbol:displayId>Tprm9</sbol:displayId>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/CAD_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>accaagcaatctgctgactccaatgccaagtctggtgtcacttccgaaatctgtcactgggcttccaacttggctactgacgacattccatctgatgtcttggaaagagccaagtacttgattttggacggtattgcctgtgcttgggttggtgctcgtgttccatggtctgaaaagtacgttcaagctaccatgtccttcgaacctccaggtgcttgtcgtgtcatcggttacggtcaaaaattgggtccagttgctgctgccatgaccaactctgcctttattcaagccactgaattggatgactaccactctgaagctccattgcactctgcttccattgttctaccagctgttttcgctgcttctgaagtcttggctgaacaaggtaagaccatctctggtatcgatgttatcttagctgccattgtcggtttcgaatctggtccaagaatcggtaaggccatctacggttctgacttgttgaacaacggttggcattgtggtgccgtttacggtgctccagctggtgctttggctaccggtaagttgttgggtttgactccagactccatggaagatgctttgggtatcgcttgtacccaagcttgtggtttgatgtctgctcaatacggtggtatggttaagagagttcaacatggtttcgctgccagaaacggtctattaggtggtttgttggctcacggtggttacgaagctatgaagggtgtcttggaaagatcttacggtggtttcttgaagatgttcaccaagggtaacggtagagaacctccatacaaggaagaagaagttgttgccggtttaggttctttctggcacactttcaccatcagaatcaaattgtacgcttgttgtggtttagtccacggtccagttgaagccattgaaaacttacaaggtcgttacccagaattgttgaacagagctaacttgtccaacatcagacacgttcacgttcaattatccactgcttccaactctcactgtggttggattccagaagaaagaccaatctcctccattgctggtcaaatgtctgttgcttacattttggctgtccaattggttgaccaacaatgtttgttgtctcaattctccgaattcgatgacaacttggaaagaccagaagtctgggatttggctagaaaggtcacctcttctcaatctgaagaatttgaccaagatggtaactgtttgtctgctggtagagtcagaattgaattcaacgacggttcttccatcactgaatccgttgaaaagccattaggtgtcaaggaaccaatgccaaacgaaagaatcttgcacaaatacagaactttggctggttccgtcactgacgaatccagagtcaaggaaatcgaagatttggttttgggtttggacagattgaccgatatctctccattattggaattgttgaactgtccagtcaaatctccattgggtatcaag</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/CAD_sequence"/>
+    <ns0:title>CAD Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>CAD_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/CTP_sequence/1">
+    <ns0:title>CTP Sequence</ns0:title>
+    <sbol:elements>tccagtaaagctaccaaaagtgacgtagatccattgcactcgtttctggcagggtccctagccggtgctgctgaagcatgtataacatatccttttgagtttgccaaaacaaggctgcagctgattgataaggcctccaaggcatcaagaaatcctctggtattgatatataaaactgcaaaaactcagggcattggttccatttatgtcggatgtcccgcatttattattggaaacaccgctaaggcgggtattagatttcttggctttgataccattaaagacatgctaagagatagtgaaactggagaactaagtggtacaagaggggtgatagctgggttaggtgcgggactattagaaagtgttgccgcagtgactccttttgaagcaatcaaaactgctttgatcgatgataaacaatctgctacaccaaaataccataataatgggcgcggtgtagtacgaaactattcatcattagtccgtgataaaggattttctggtctttatcgtggtgttttgccagtttccatgagacaggccgcaaaccaagccgttagattgggttgttacaataagattaagaccttgatccaagattatacggattcgccaaaagacaaacctttatcatccgggttaaccttcttagtgggtgcatttagtggtattgtgacggtctattccaccatgccccttgatactgtgaaaacaagaatgcaaagtttggattccaccaaatactcctctacaatgaattgttttgcaaccattttcaaagaagaagggttaaagacgttttggaaaggtgctacgcctagacttgggagattggtcttgagtggtggtattgttttcactatctatgaaaaggtcttagttatgctagcc</sbol:elements>
+    <sbol:displayId>CTP_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/CTP_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Tvma2_sequence/1">
+    <sbol:displayId>Tvma2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>aggacggttgctgaagaaaaaggctttttttattttgtccgttttttttttgtaaaacccaaagatctgaatctaaagcttttttaaacgtatatagatgtctacatgtgtgtttttgtttttttacgtacgtatacccacctatatatgcataatccgtaattgaaaaaaaaaaaagaaaaagatcaaggaacaca</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tvma2_sequence"/>
+    <ns0:title>Tvma2 Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/CSC_sequence/1">
+    <sbol:elements>gctgacaccaaggccaagttgaccttgaacggtgacactgctgtcgaattggatgttttgaaaggtactttgggtcaagatgtcattgatatcagaactttgggttccaagggtgttttcaccttcgacccaggtttcacctctactgcttcttgtgaatccaagatcactttcatcgatggtgacgaaggtatcctattacacagaggtttcccaattgaccaattagctactgactccaactacttggaagtttgttacatcttgttgaatggtgaaaagccaactcaagaacaatacgacgaatttaaaaccaccgttaccagacacaccatgattcacgaacaaatcaccagattattccacgctttccgtcgtgactcccacccaatggctgtcatgtgtggtatcactggtgctttggctgctttctaccatgactctttggatgtcaacaacccaagacacagagaaattgccgctttcttgttgttgtccaagatgccaaccatggctgctatgtgttacaagtactccatcggtcaacctttcgtttacccaagaaacgatttgtcttacgccggtaacttcttgaacatgatgttctccactccatgtgaaccttacgaagttaacccaattttggaaagagccatggacagaatcttgatcttgcacgctgaccatgaacaaaacgcttctacttctactgttagaactgccggttcttctggtgctaacccatttgcttgtatcgctgctggtattgcttctttatggggtccagctcatggtggtgccaacgaagctgctttgaagatgttggaagaaatttcttctgtcaagcacattccagaatttgtcagaagagctaaggacaagaacgactctttcagattgatgggtttcggtcaccgtgtctacaagaactacgacccaagagctaccgtcatgagagaaacctgtcacgaagttttgaaggaattgggtaccaaggatgacttgttggaagttgccatggaattggaaaacattgctttgaacgacccatacttcatcgaaaagaaattgtacccaaacgtcgatttctactccggtatcatcttaaaggctatgggtattccatcttccatgttcaccgttatctttgctatggccagaactgttggttggatcgctcactggtccgaaatgcactctgatggtatgaagattgccagaccaagacaattatacactggttacgaaaagagagatttcaaatctgatatcaagaga</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/CSC_sequence"/>
+    <sbol:version>1</sbol:version>
+    <ns0:title>CSC Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>CSC_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Pykt6_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Pykt6_sequence</sbol:displayId>
+    <sbol:elements>tttactgataatatacactctttggatcgagcccacttccagttggtaattggtgttccacaatttcagcattacatgtttttaaaccaaaattcggctccttttccctttttttcttattgggtggcgtgccgtacagaacgattggcttggtgtgaaatcaagagcaagcacaatagatatcaacatgaacaatatacaaaagtctctggcacagtttgactgcgttagaccaggctagggcatttctgaagctttacgtatcactagagaagttattttggc</sbol:elements>
+    <ns0:title>Pykt6 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pykt6_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Ppre3_sequence/1">
+    <sbol:elements>caaacattaatttgttctgcatactttgaacctttcagaaaataaaaaacattacgcgcatacttaccctgctcgcgaagaagagtaacactaacgcattctatgggcaattgatgacagtattcagtacaagacatagtccgtttccttgattcaattcctatagcattatgaactagccgcctttaagagtgccaagctgttcaacaccgatcatttttgatgatttggcgtttttgttatattgatagatttcttttgaattttgtcattttcacttttccactcgcaacggaatccggtggcaaaaaagggaaaagcattgaaatgcaatctttaacagtattttaaacaagttgcgagacggtgtacaattacgataagaattgctacttcaaagtacacacagaaagttaacatgaatggaattcaagtggacatcaatcgtttgaaaaagggcgaagtcagtttaggtacctcaatgtatgtatataagaatttttcctcccactttattgtttctaaaagttcaatgaagtaaagtctcaattggccttattactaactaataggtatcttataatcacctaataaaatag</sbol:elements>
+    <ns0:title>Ppre3 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ppre3_sequence"/>
+    <sbol:displayId>Ppre3_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Tefm1_sequence/1">
+    <sbol:elements>tttgatctgtagcctaagtataaaattctacgtatgtatatatttacatgcaattttttctttttccaattcatg</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tefm1_sequence"/>
+    <sbol:displayId>Tefm1_sequence</sbol:displayId>
+    <ns0:title>Tefm1 Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tyhi9/1">
+    <sbol:sequence rdf:resource="http://examples.org/Tyhi9_sequence/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:displayId>Tyhi9</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tyhi9"/>
+    <ns0:title>Tyhi9</ns0:title>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <ns0:description>yhi9 terminator</ns0:description>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tpdc1/1">
+    <sbol:displayId>Tpdc1</sbol:displayId>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tpdc1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns0:description>pdc1 terminator</ns0:description>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns0:title>Tpdc1</ns0:title>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Tpdc1_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Phta1/1">
+    <ns0:title>Phta1</ns0:title>
+    <ns0:description>hta1 promoter</ns0:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <sbol:displayId>Phta1</sbol:displayId>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:sequence rdf:resource="http://examples.org/Phta1_sequence/1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Phta1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Pact1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pact1_sequence"/>
+    <sbol:elements>aaaatgtgtggggaagcgggtaagctgccacagcaattaatgcacaacatttaacctacattcttccttatcggatcctcaaaacccttaaaaacatatgcctcaccctaacatattttccaattaaccctcaatatttctctgtcacccggcctctattttccattttcttctttacccgccacgcgtttttttctttcaaatttttttcttctttcttctttttcttccacgtcctcttgcataaataaataaaccgttttgaaaccaaactcgcctctctctctcctttttgaaatatttttgggtttgtttgatcctttccttcccaatctctcttgtttaatatatattcatttatatcacgctctctttttatcttcctttttttcctctctcttgtattcttccttcccctttctactcaaaccaagaagaaaaagaaaaggtcaatctttgttaaagaataggatcttctactacatcagcttttagatttttcacgcttactgcttttttcttcccaagatcgaaaatttactgaattaac</sbol:elements>
+    <ns0:title>Pact1 Sequence</ns0:title>
+    <sbol:displayId>Pact1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ACO/1">
+    <sbol:sequence rdf:resource="http://examples.org/ACO_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ACO"/>
+    <sbh:designNotes>Does not contain start or stop codons, codon optimized for S.cerevisiae, BsaI/BbsI sites eliminated</sbh:designNotes>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>ACO</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <ns0:title>ACO</ns0:title>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/codon_optimisation/1"/>
+    <ns0:description>aconitase gene ACO1 (YLR304C)</ns0:description>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Phhf2_sequence/1">
+    <sbol:displayId>Phhf2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Phhf2_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>acaagaagcaacgcgagagagcacaacacgctgttatcacgcaaactatgttttgacaccgagccatagccgtgattgtgcgtcacattgggcgataatgaacgctaaatgaccaactcccatccgtaggagccccttagggcgtgccaatagtttcacgcgcttaatgcgaagtgctcggaacggacaactgtggtcgtttggcaccgggaaagtggtactagaccgagagtttcgcatttgtatggcaggacgttctgggagcttcgcgtctcaagctttttcgggcgcgaaatgcagaccagaccagaacaaaacaactgacaagaaggcgtttaatttaatatgttgttcactcgcgcctgggctgttgttattcggctagatacatacgtgtttgtgcgtatgtagttatatcatatataagtatattaggatgaggcggtgaaagagattttttttttttcgcttaatttattcttttctctatcttttttcctacatcttgttcaaaagagtagcaaaaacaacaatcaatacaataaaat</sbol:elements>
+    <ns0:title>Phhf2 Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tklura3/1">
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Tklura3_sequence/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:28985"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tklura3"/>
+    <ns0:title>Tklura3</ns0:title>
+    <ns0:description>klura3 terminator</ns0:description>
+    <sbol:displayId>Tklura3</sbol:displayId>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/_3int_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/_3int_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>_3int_sequence</sbol:displayId>
+    <ns0:title>3int Sequence</ns0:title>
+    <sbol:elements>attttattttactttttttagaatgacctgttcccgacactatgtaagatctagcttttaacatattatggaaacctgaaatgtaaaatctgaatttttgtatatgtgtttatatttgggtagttcttttgaggaaagcatgcatagacttgctgtacgaactttatgtgacttgtagtgacgctgtttcatgagactttagccctttgaacatattatcatatctcagcttgaaatactatagatttacttttgcagccatttcttggtgctccaaggttgtgcgtatctattacttaatttctgtccttgccaagttttgcagcagggcggtcacaagacacctctgccgtcattccttagtccttcgggaacacacttatttatgtatttgtattctacaattctacggtgcacaagggttgggcactgttgagctcagcacgcaactattgctggcatgaagataagattgatttttggaagaataagcttgtga</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/_3int/1">
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <ns0:title>3int</ns0:title>
+    <sbol:displayId>_3int</sbol:displayId>
+    <ns0:description>int </ns0:description>
+    <sbol:sequence rdf:resource="http://examples.org/_3int_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/_3int"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000342"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tvma2/1">
+    <ns0:title>Tvma2</ns0:title>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns0:description>vma2 terminator</ns0:description>
+    <sbol:sequence rdf:resource="http://examples.org/Tvma2_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tvma2"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:displayId>Tvma2</sbol:displayId>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Prpl28_sequence/1">
+    <sbol:elements>ttaatcatcgtttactgccgcctatgagcgtaagctaatgttataaagaaacaagctataatattgttaaatatagttgatcaacagcattgtaatgattacaagagacgaggtggaatgaaccttatgaaatgcgttttatatataaactgtaataagagctaagttgaattgaaatctacgatacttgatgttgacattatagcactagttcccaggaaaccctttcgaaaaacacagcaaaaacaagagtactgtaaccaatgtaacatctgtacaccagggacccacacattaccaaaatcaaaattatttttctaatgcctgttatttttcctatttttcctctggcgcgtgaatagcccgcagagacgcaaacaattttcctcgcagtttttcgcttgtttaatgcgtattttcccagataggttcaaacctttcatctgtatcccgtatatttaagatggcgtttgctttctccgttgatttttttccttcttagtgatttttttgcattaaatcccagaacaatcatccaactaatcaag</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Prpl28_sequence"/>
+    <sbol:displayId>Prpl28_sequence</sbol:displayId>
+    <ns0:title>Prpl28 Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Psptdh3_sequence/1">
+    <ns0:title>Psptdh3 Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Psptdh3_sequence</sbol:displayId>
+    <sbol:elements>gttttatttctgctgccatccgtaaatgccaggatttgagcgggttacacaatatatctcatattttcggtgtctgggtcattactttactcttggcatccactaaatatattggatcctgctttttaaactggcttccagaaaaaaatcaatggagtgatgcaaactgcctggagtaaaagatgacacaaggcgattgacctacgcatgtatctatctcattttcttacaccttctatttcattctaactctttgatttggaaaacacctaagaaaaaaaaggttgaaatcagttccctgaaattgtccccctacttgactaataaatatataaagacggtaggtattgactgtaattcgtaaatctatacttcttaaacttcttcaaatttacttttttggatagtcttatttttggtttcaataccccaagaacttagtttcaaataaatacacatacaaacaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Psptdh3_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ACDH/1">
+    <sbol:displayId>ACDH</sbol:displayId>
+    <ns0:title>ACDH</ns0:title>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:sequence rdf:resource="http://examples.org/ACDH_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ACDH"/>
+    <sbh:designNotes>Does not contain start or stop codons, codon optimized for S.cerevisiae, BsaI/BbsI sites eliminated</sbh:designNotes>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:1642"/>
+    <ns0:description>acylating aldehyde dehydrogenase (EutE)</ns0:description>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/codon_optimisation/1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pfba1/1">
+    <ns0:title>Pfba1</ns0:title>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Pfba1_sequence/1"/>
+    <sbol:displayId>Pfba1</sbol:displayId>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <ns0:description>fba1 promoter</ns0:description>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pfba1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Trpl3/1">
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:version>1</sbol:version>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:displayId>Trpl3</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Trpl3_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Trpl3"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:description>rpl3 terminator</ns0:description>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns0:title>Trpl3</ns0:title>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/ACKA_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ACKA_sequence"/>
+    <ns0:title>ACKA Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>ACKA_sequence</sbol:displayId>
+    <sbol:elements>aaagatgtggaagatattcatcgcccgatgctgaacagcctgcagagcaccagcgcgaaaatgaaaaaaattgtgctgagcgtgaacgcgggcagcagcagcgtgaaaattagcgcgtatagcgcgctgtttggccaggcgccgattcagctggcggaagcgcagattagcggcctgaccgcgccgccgccgaccctgcgctatacccgccatggcgaaaaagtgattaacgatgaagaagtgaaagatcagaaagtgagcacccaggcggatgcgtttgatattctggtgaaagcgctgattgatgataacggcgtgccggaaattagcagcaaagaagatattgcgtatatttgccatcgcattgtgcatggcggcgattttgtgcgcccgaaactgattagcgatgaaacctatcataacctggaaaaactgaacgatctggcgccgctgcataacagcaccagcctggtgattgtgcatcgctgcatgagcgatatgccgaaaaccacctttaacattgcgtgctttgatagccagtttcatcataccattccggaacatattcgcacctatccgattaaccaggatattgcgcgcaacaaccatctgcgcaaatatggctttcatggcattagctatgcgtttattacccgcgcgaccgcggaatttctgggcaaaaaagtggaagatgtgaacattattgcgctgcatctgggcagcggcgcgagcgcgtgcgcgattaaaggcggcaaaagcctggataacagcatgggcctgaccccgctggcgggcctgccgggcgcgacccgcagcggcagcgtggatccgagcctggtgtttcattatgcgagcgatgtgggcaaactgagcccggcgagcaccaaagatctgcatattagccgcgcggaagaaattctgaacaaacagagcggctggaaagcgctgaccggcaccaccaactttggcaccattaccgcggcgctggatccgagcagcagcgataccaccagccatctgagcccggaagaagtggcgaaaatgcgcctggcgtttgatatttttgtggaacgcatttgcgcgtatattggcagctattatgtgagcctgcagggccaggtggatgcgctggtgtttgcgggcggcattggcgaaaaaagcgatcgcctgcgcgcggcggtgattgaacaggtgagctgcctgggctttggcccggtggataaagaagcgaacgaaacccgcgtgaaagaagaactggatgatagccatgatgtgattgaaattgcgccgccgaacagcaaaaaaggcggcaaagatggccgcgaacatcgcgtgctggtgtgcaaaaccgatgaacagtttgaaatggcgcgcgcgtgcgcggaagatggcgaattttggcgc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Peft2/1">
+    <sbol:sequence rdf:resource="http://examples.org/Peft2_sequence/1"/>
+    <ns0:description>eft2 promoter</ns0:description>
+    <sbol:displayId>Peft2</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Peft2"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <ns0:title>Peft2</ns0:title>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Phhf2/1">
+    <ns0:description>hhf2 promoter</ns0:description>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:sequence rdf:resource="http://examples.org/Phhf2_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>Phhf2</sbol:displayId>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns0:title>Phhf2</ns0:title>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Phhf2"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Taip1_sequence/1">
+    <ns0:title>Taip1 Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ataagaatataaagtaaacaattacgtaaccttagaaaaacagatataaaaaagttttacactgtttttaccacagtccatataaacttgtaattattacccgaat</sbol:elements>
+    <sbol:displayId>Taip1_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Taip1_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/NAT_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/NAT_sequence"/>
+    <sbol:displayId>NAT_sequence</sbol:displayId>
+    <sbol:elements>ggtaaggaaaagacacacgtttcgaggccgcgattaaattccaacatggatgctgatttatatgggtataaatgggctcgcgataatgtcgggcaatcaggtgcgacaatctatcgattgtatgggaagcccgatgcgccagagttgtttctgaaacatggcaaaggtagcgttgccaatgatgttacagatgagatggtcagactaaactggctgacggaatttatgcctcttccgaccatcaagcattttatccgtactcctgatgatgcatggttactcaccactgcgatccccggcaaaacagcattccaggtattagaagaatatcctgattcaggtgaaaatattgttgatgcgctggcagtgttcctgcgccggttgcattcgattcctgtttgtaattgtccttttaacagcgatcgcgtatttcgtctcgctcaggcgcaatcacgaatgaataacggtttggttgatgcgagtgattttgatgacgagcgtaatggctggcctgttgaacaagtctggaaagaaatgcataagcttttgccattctcaccggattcagtcgtcactcatggtgatttctcacttgataaccttatttttgacgaggggaaattaataggttgtattgatgttggacgtgtcggaatcgcagaccgataccaggatcttgccatcctatggaactgcctcggtgagttttctccttcattacagaaacggctttttcaaaaatatggtattgataatcctgatatgaataaattgcagtttcatttgatgctcgatgagtttttc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>NAT Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/NAT/1">
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>NAT</sbol:displayId>
+    <ns0:title>NAT</ns0:title>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/codon_optimisation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/NAT_sequence/1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns0:description>AT CDS</ns0:description>
+    <sbol:version>1</sbol:version>
+    <sbh:designNotes>Does not contain start or stop codons,  BsaI/BbsI sites eliminated</sbh:designNotes>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/NAT"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:1971"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Venus_sequence/1">
+    <sbol:displayId>Venus_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>tctaaaggtgaagaattattcactggtgttgtcccaattttggttgaattagatggtgatgttaatggtcacaaattttctgtctccggtgaaggtgaaggtgatgctacttacggtaaattgaccttaaaattgatttgtactactggtaaattgccagttccatggccaaccttagtcactactttaggttatggtttgcaatgttttgctagatacccagatcatatgaaacaacatgactttttcaagtctgccatgccagaaggttatgttcaagaaagaactatttttttcaaagatgacggtaactacaagaccagagctgaagtcaagtttgaaggtgataccttagttaatagaatcgaattaaaaggtattgattttaaagaagatggtaacattttaggtcacaaattggaatacaactataactctcacaatgtttacatcactgctgacaaacaaaagaatggtatcaaagctaacttcaaaattagacacaacattgaagatggtggtgttcaattagctgaccattatcaacaaaatactccaattggtgatggtccagtcttgttaccagacaaccattacttatcctatcaatctgccttatccaaagatccaaacgaaaagagagatcacatggtcttgttagaatttgttactgctgctggtattacccatggtatggatgaattgtacaaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Venus_sequence"/>
+    <ns0:title>Venus Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tdpp1/1">
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tdpp1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>Tdpp1</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Tdpp1_sequence/1"/>
+    <ns0:title>Tdpp1</ns0:title>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:version>1</sbol:version>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <ns0:description>dpp1 terminator</ns0:description>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Tgpm1_sequence/1">
+    <sbol:displayId>Tgpm1_sequence</sbol:displayId>
+    <ns0:title>Tgpm1 Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tgpm1_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gtctgaagaatgaatgatttgatgatttctttttccctccatttttcttactgaatatatcaatgatatagacttgtatagtttattatttcaaattaagtagctatatatagtcaagataacgtttgtttgacacgattacattattcgtcgacatcttttttcagcctgtcgtggtagcaatttgaggagtattattaattgaataggttcattttgcgctcgcataaacagttttcgtcagggacagtatgttggaatgagtggtaattaatggtgacatgacatgttatagcaata</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Venus/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/codon_optimisation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:designNotes>Does not contain start or stop codons, BsaI/BbsI sites eliminated</sbh:designNotes>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Venus"/>
+    <sbol:displayId>Venus</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Venus_sequence/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:6100"/>
+    <ns0:title>Venus</ns0:title>
+    <ns0:description>Venus yellow fluorescent protein derived from avGFP</ns0:description>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/_5int_sequence/1">
+    <sbol:displayId>_5int_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/_5int_sequence"/>
+    <sbol:elements>gacatattcttaccaatcctttcataagctaattatgccatccatatagcaagagaatccggtgggggcgccatgcctatccggcggcaacattattactctggtatacgggcgtaactccataatatgccaccacttacctttaacatgttcatggtaggtaccccacccagccataaggaaattttcaaaggcgttggatcaaaaaataggcctttatttcatcgcgtgattgaggagcataacatgtttagtgaaggtttcttttggaaaacttcagtcgctcattattagaaccagggaggtccaggctttgctggtgggagagaaagcttatgaagctggggttgcagatttgtcgattggtcgccagtacacagttttaaaaagtcagagaatgtagagaagtatggatctttgaaaccct</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>5int Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Tcyc1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tcyc1_sequence"/>
+    <sbol:displayId>Tcyc1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>Tcyc1 Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>caggccccttttcctttgtcgatatcatgtaattagttatgtcacgcttacattcacgccctccccccacatccgctctaaccgaaaaggaaggagttagacaacctgaagtctaggtccctatttatttttttatagttatgttagtattaagaacgttatttatatttcaaatttttcttttttttctgtacaaacgcgtgtacgcatgtaaca</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Psmtef1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Psmtef1_sequence</sbol:displayId>
+    <ns0:title>Psmtef1 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Psmtef1_sequence"/>
+    <sbol:elements>atgcttcaaaaacgcactgtactcctttttactcttccggattttctcgcactctccgcatcgccgcacgagccaagccacacccacacacctcataccatgtttcccctctttgtctctttcgtgcggctccattacccgcatgaaactgtataaaagtaacaaaagactatttcgtttctttttctttgtcggaaaaggcaaaaaaaaaaatttttatcacatttctttttcttgaaaattttttttgggattttttctctttcgatgacctcccattgatatttaagttaataaaagcactcccgttttccaagttttaatttgttcctcttgtttagtcattcttcttctcagcattggtcaattagaaagagagcatagcaaactgatctaagttttaattacaa</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ACKA/1">
+    <ns0:description>acetate kinase (ackA)</ns0:description>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:displayId>ACKA</sbol:displayId>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <ns0:title>ACKA</ns0:title>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:162425"/>
+    <sbh:designNotes>Does not contain start or stop codons, codon optimized for S.cerevisiae, BsaI/BbsI sites eliminated</sbh:designNotes>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ACKA"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/codon_optimisation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/ACKA_sequence/1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tnat1/1">
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Tnat1_sequence/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <ns0:description>nat1 terminator</ns0:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tnat1"/>
+    <ns0:title>Tnat1</ns0:title>
+    <sbol:displayId>Tnat1</sbol:displayId>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Psbtdh3/1">
+    <ns0:description>sbtdh3 promoter</ns0:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>Psbtdh3</sbol:displayId>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Psbtdh3"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:sequence rdf:resource="http://examples.org/Psbtdh3_sequence/1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4931"/>
+    <ns0:title>Psbtdh3</ns0:title>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Tadh2_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Tadh2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tadh2_sequence"/>
+    <ns0:title>Tadh2 Sequence</ns0:title>
+    <sbol:elements>gcggatctcttatgtctttacgatttatagttttcattatcaagtatgcctatattagtatatagcatctttagatgacagtgttcgaagtttcacgaataaaagataatattctactttttgctcccaccgcgtttgctagcacgagtgaacaccatccctcgcctgtgagttgtacccattcctctaaactgtagacatggtagcttcagcagtgttcgttatgtacggcatcctccaacaaacagtcggttatagtttgtcctgctcctctgaatcgtctc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Tyhi9_sequence/1">
+    <sbol:version>1</sbol:version>
+    <ns0:title>Tyhi9 Sequence</ns0:title>
+    <sbol:elements>attctaaacgcatagttgtaaggttgatgtatatatatatatatatatgtatatattaattacaataatatgctcccgcccaaatttttctccttcaataccgccggaggcggtattgaaggaaatagacggagaattccttatcaagaaagcttccatcaaagtgtacataagaagtgccgaaattcgaagtattctttcagagagtatttttgcaacataccaataagccaaattactc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tyhi9_sequence"/>
+    <sbol:displayId>Tyhi9_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tyol036w/1">
+    <ns0:title>Tyol036w</ns0:title>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:description>yol036w terminator</ns0:description>
+    <sbol:sequence rdf:resource="http://examples.org/Tyol036w_sequence/1"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tyol036w"/>
+    <sbol:displayId>Tyol036w</sbol:displayId>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Tklura3_sequence/1">
+    <sbol:displayId>Tklura3_sequence</sbol:displayId>
+    <ns0:title>Tklura3 Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tklura3_sequence"/>
+    <sbol:elements>tatacaggaaacttaatagaacaaatcacatatttaatctaatagccacctgcattggcacggtgcaacactacttcaacttcatcttacaaaaagatcacgtgatctgttgtattg</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Tdpp1_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Tdpp1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:title>Tdpp1 Sequence</ns0:title>
+    <sbol:elements>aataaaaaagaatatatactccacatgacatacgaaatatacgtatttattgttctgtatggaataacagcgattacataaagatgacatgttacttctttattcaaattaatcttgacgtgcaagggcctgcttgttatttcatcggacaatcccaacatcactttacacg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tdpp1_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/XPK_sequence/1">
+    <sbol:elements>ccaggagaagtcatcgagcgaccaaacccggcgccaaagccgtcgcatgtccccgatttagtagaaaaactcataattcccgcgcagaaaacgaagctggagaaaagcgattgtgatgcgttgcacaagtatcgtcgcgcggcggcgtatattgctgctggacactggggaacatgtcctgggttgatcctcgtttactctcacctgaactacctgatcaagaagcagaacctcgatatgctgtatgttgttgggccagggcatggagcaccgggcttgctagcatcgttgtggcttgagggctcgctggggaagttttatccgcagtataccaaggacaaggagggtctgcacaacctcatctcgacgttcagtaccagtgccggactgcctagccacatcaatgctgaaacacccggcgctatccacgaaggaggagagctgggctatgcgctgtctgtctccttcggcgcagtcatggataaccccgatttgattgtaacatgtgtagttggagacggagaggcggaaactggtccaacagccacatcatggcatgcgatcaagtacatcgatccagctgagtcaggagccgtgcttccaatcctgcatgtgaatggcttcaagatcagtgagcgcactatttttgggtgcatggataacagggagatagtctgcctgttcacagggtacgggtatcaggtgcgcattgtcgaggacctcgaggacatcgacaacgaccttcacagcgctatgtcctgggcggttgaggaaatccgtaatattcagaaagcagcgcgctccggaaagcctatcatgaagcctcaatggcccatgattgtcttgcgaacgcccaagggttggtcagggccgaaagagctgcatggccagttcatcgaaggatcgttccactcccaccaggttcccctccctaatgctaagaaagacgatgaggagctccaggctctgcagaaatggctttcctcttacaaacccgatgagctgtttaccgagtctggcgacgttatcgacgaaatcctatccattattccttcggatgataagaaactcggcatgaggcccgaggcctacaagactcatctaccgccggacctccctgactggagacagttctgcgtgaaaaaaggggatcagttcagcgcaatgaaggccattggtagcttcatcgaccaggttttcgtcaagaacccgcataccgtccggttattctcacccgacgagctggaaagcaacaagttgagcgctgccctatcacatacgggaaggaatttccagtgggatgagttctcgaatgcaaaaggtgggcgggtgatcgaggtcctgagtgagcatttgtgtcagggcttcatgcaggggtatacattgaccggccggacgggcatcttcccatcatatgagagtttcttgggtattatacataccatgatggtccagtatgccaagttcgcaaagatggctaaagaaacggcatggcaccatgacgtgagtagtatcaactacatcgagactagcacctgggcccgacaggagcacaatggcttctctcaccaaaatccatccttcatcggcgcggttctcaaactgaagccgtacgccgcccgcgtctacctgcctcccgacgccaacacatttcttaccactttgcaccactgcctgaaatcaaagaattatatcaacctcatggtcggctcaaagcaacccaccccagtctacctgagccccgaggaagcggaaagccactgccgagccggagcctcgatcttcaagttctgcagtaccgacggtgggctccgcccggatgtcgtactcgttggaatcggtgttgaggtcatgttcgaagttatcaaggcggcagccatactgcgagaacgatgccctgagctgcgtgttcgtgtagtcaacgtgacggatttattcattctcgagaacgagggtgcccacccccacgccttgaagcacgaggccttcgacaacctcttcaccgaggatcgctccatccatttcaactatcatggatatgtgaacgaactccagggcctgctctttggccgccctaggctcgaccgggcaaccatcaagggatataaggaagagggaagcaccacaactccatttgacatgatgcttgtgaatgaagtatcgcggtaccacgtcgcgaaggcagccgtcacgggaggagcgaggttcaatgagaaagtcaagctgcggcaccaggagctttgctctgaattcgatcataacattgctgagacgcgcaagtacatcatgaacaatcatcaagatcccgaggacacatacaatatgccctcatttaac</sbol:elements>
+    <ns0:title>XPK Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/XPK_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>XPK_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Prps3/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Prps3"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:sequence rdf:resource="http://examples.org/Prps3_sequence/1"/>
+    <ns0:title>Prps3</ns0:title>
+    <sbol:displayId>Prps3</sbol:displayId>
+    <ns0:description>rps3 promoter</ns0:description>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/OAC/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:title>OAC</ns0:title>
+    <ns0:description>mitochondrial oxaloacetate transporter OAC1 (YKL120W)</ns0:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/OAC"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/codon_optimisation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/OAC_sequence/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbh:designNotes>Does not contain start or stop codons, codon optimized for S.cerevisiae, BsaI/BbsI sites eliminated</sbh:designNotes>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:displayId>OAC</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Tecm10_sequence/1">
+    <ns0:title>Tecm10 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tecm10_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Tecm10_sequence</sbol:displayId>
+    <sbol:elements>acaagataataaaaaagataatattttcgtttaaaatttcagaaatattgcttacatcaaacgaaatagtaagcgtaaaccatatatcctttcaacgatatgtatcatttttatagtcttttggcggtataaaaagaatagccaaaggtggaagtcaggttaaaccaaaagaaactacccgcaagggatgtatgcatttgaacataaaaaact</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Ttdh1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ttdh1_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gcaatcttgatgaggataatgatttttttttgaatatacataaatactaccgtttttctgctagattttgtgaagacgtaaataagtacatattactttttaagccaagacaagattaagcattaactttacccttttctcttctaagtttcaatactagttatcactgtttaaaagttatggcgagaacgtcggcggttaaaatatattaccctgaacgtggtgaattgaagttctaggatggtttaaagatttttcctttttgggaaataagtaaacaatatattgctgcctt</sbol:elements>
+    <sbol:displayId>Ttdh1_sequence</sbol:displayId>
+    <ns0:title>Ttdh1 Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Trpl15a_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Trpl15a_sequence</sbol:displayId>
+    <sbol:elements>ctggttgatggaaaatataattttattgggcaaacttttgtttatctgatgtgttttatactattatctttttaattaatgattctatatacaaacctgtatattttttctttaaccaatttttttttttatagacctagagctgtact</sbol:elements>
+    <ns0:title>Trpl15a Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Trpl15a_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Teno1_sequence/1">
+    <ns0:title>Teno1 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Teno1_sequence"/>
+    <sbol:elements>agcttttgattaagccttctagtccaaaaaacacgtttttttgtcatttatttcattttcttagaatagtttagtttattcattttatagtcacgaatgttttatgattctatatagggttgcaaacaagcatttttcattttatgttaaaacaatttcaggtttaccttttattctgcttgtggtgacgcgtgtatccgcccgctcttttggtcacccatgtatttaattgcataaataattcttaaaagtggagctagtctatttctatttacatacctctcatttctcattt</sbol:elements>
+    <sbol:displayId>Teno1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tgpm1/1">
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:sequence rdf:resource="http://examples.org/Tgpm1_sequence/1"/>
+    <ns0:title>Tgpm1</ns0:title>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:displayId>Tgpm1</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:description>gpm1 terminator</ns0:description>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tgpm1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/XPK/1">
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/XPK"/>
+    <sbol:version>1</sbol:version>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:162425"/>
+    <ns0:description>phosphoketolase (phk)</ns0:description>
+    <sbh:designNotes>Does not contain start or stop codons, codon optimized for S.cerevisiae, BsaI/BbsI sites eliminated</sbh:designNotes>
+    <sbol:sequence rdf:resource="http://examples.org/XPK_sequence/1"/>
+    <sbol:displayId>XPK</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <ns0:title>XPK</ns0:title>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/codon_optimisation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Ptef1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>atagcttcaaaatgtttctactccttttttactcttccagattttctcggacaccgcgcatcgccgtaccacttcaaaacacccaagcacagcatactaaatttcccctctttcttcctctagggtgtcgttaattacccgtactaaaggtttggaaaagaaaaaagtgaccgcctcgtttctttttcttcgtcgaaaaaggcaataaaaatttttatcacgtttctttttcttgaaaatttttttttttgatttttttctctttcgatgacctcccattgatatttaagttaataaacggtgttcaatttctcaagtttcagtttcatttttcttgttctattacaactttttttacttcttgctcattagaaagaaagcatagcaatctaatctaagttttaattacaa</sbol:elements>
+    <sbol:displayId>Ptef1_sequence</sbol:displayId>
+    <ns0:title>Ptef1 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ptef1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Ppxr1_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>Ppxr1 Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ppxr1_sequence"/>
+    <sbol:displayId>Ppxr1_sequence</sbol:displayId>
+    <sbol:elements>taaaaacgcagcaactaaagaaggcgactaataaaaattgagtatgcctctccttagcgtaaacagtaactgcgtgctataaggtggcactaaacttccttcttcccctttctatcggatttgtgcagccaggagggataccagtgacggctatagcgggagaaagacgggccctctcacaaccctttgccccttgcggttagtcatatagattttgcttgtgaagagaactggtcggttcaaagatgctttcttcaaagtactatagccttgcccactctctttctcccttctgatctcttgtatgctgattttactttaataagtgaaggtgatcaatcagtcaactaacaaattagccgccactgcaaggatattttctctgtcgttgttgttttcctacaaatataaacaaccgggtaacagtcaaagaaaaaaaaaaaaagaaaaggaaaaaaaaaaaatatgaaaaattttgttctgaaagaagcgatgagatgagtactcaatagtaacatataggcagcttacaccattaaacaaagaagcag</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Peft2_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Peft2_sequence"/>
+    <sbol:displayId>Peft2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ttccttttttttcttttttttttaccagaagaattacgtacaaaagtacctactatttcaaagcaagaaatgagatgcctattgtggttatatacagaatagatgataaatgggttttccgtgcaaaacgatatggagaattcaaaatgggtgcgaaatacctggaacgtaagcgttctgagaaatacacagacgcattaacctgacaaaaacacaactagtttgggaaagggatttggtctttcctctcgggcttctcgtgtggttcctttctttctcagatctccctgcacactgggctgttgtcctccaggttatggtttgttctcttcaggtattacaatgcagtaggcttttggagtgagcaaaacgaagagagaaaaaaattttttcttaaaagttttttttcattttgtgagcttattcttcttttctatatattcttgatatcttagattatacatattattctcttacatttcacgattgcccttttggtgtttagcattcagtctcaaagaccacaaacacaaactataacataattgcaa</sbol:elements>
+    <ns0:title>Peft2 Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Trpl3_sequence/1">
+    <ns0:title>Trpl3 Sequence</ns0:title>
+    <sbol:displayId>Trpl3_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>aagttttgttagaaaataaatcattttttaattgagcattcttattcctattttatttaaatagttttatgtattgttagctacatacaacagtttaaatcaaattttctttttcccaagtccaaaatggaggtttattttgatgacccgcatgcgattatgttttgaaagtataagactacatacatgtacatatatttaaacatgtaaacccgtccattatattgc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Trpl3_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Prps3_sequence/1">
+    <ns0:title>Prps3 Sequence</ns0:title>
+    <sbol:displayId>Prps3_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>aatccaagtaaaaggatggatatcgttatactaaaagcaacacagaaaaggtccacgtcagttccacacaataacatttacgtagtgttcacgcgaagcagttacatctcaactaacataattgctggtgagcctacaacactgcatgcgtaaacgtcaacgggattacgttagtatttttggccgccggtaaattctcttgtttttttttcttgatttcacttcttttcatgttcctttggaataatctaattcctcatgattaaatgagactgttttttgtttccgtaacatccatacctttcctgtataatattcttgctgtaaagtttgttttttttatgaaaaaaacattttcttttcttgagatgaggcgccgcgagcctttctcccatgggcagtggtaaattttccaaatcaatgcagctctttgaaatacaacagcatttttcatacattttaagcaatttctagtttgtagatattgttagattagtttttgaacattgttttgataactgaaaataaaacagcaaacaaactacaaa</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Prps3_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Pfba1_sequence/1">
+    <sbol:elements>atgacagcaggattatcgtaatacgtaatagttgaaaatctcaaaaatgtgtgggtcattacgtaaataatgataggaatgggattcttctatttttcctttttccattctagcagccgtcgggaaaacgtggcatcctctctttcgggctcaattggtgtcacgctgccgtgagcatcctctctttccatatctaacaactgagcacgtaaccaatggaaaagcatgagcttagcgttgctccaaaaaagtattggatggttaataccatttgtctgttctcttctgactttgtctcctcaaaaaaaaaaaatctacaatcaacagatcgcttcaattacgccctcacaaaaacttttttccttcttcttcgcccacgttaaattttatccctcatgttgtctaacggatttctgcacttgatttattataaaaagacaaagacataatacttctctatcaatttcagttattgttcttccttgcgttattcttctgttcttctttttcttttgtcatatataaccataaccaagtaatacatattcaa</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>Pfba1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pfba1_sequence"/>
+    <ns0:title>Pfba1 Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Ppxr1/1">
+    <sbol:displayId>Ppxr1</sbol:displayId>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns0:description>pxr1 promoter</ns0:description>
+    <sbol:sequence rdf:resource="http://examples.org/Ppxr1_sequence/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns0:title>Ppxr1</ns0:title>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ppxr1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ITE/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ITE"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/codon_optimisation/1"/>
+    <ns0:title>ITE</ns0:title>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/ITE_sequence/1"/>
+    <sbh:designNotes>Does not contain start or stop codons, codon optimized for S.cerevisiae, BsaI/BbsI sites eliminated</sbh:designNotes>
+    <sbol:displayId>ITE</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:33178"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:description>itaconic exporter (mfsA)</ns0:description>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/PTA/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/codon_optimisation/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:1423"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns0:description>phosphotransacetylase (pta)</ns0:description>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>PTA</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/PTA_sequence/1"/>
+    <sbh:designNotes>Does not contain start or stop codons, codon optimized for S.cerevisiae, BsaI/BbsI sites eliminated</sbh:designNotes>
+    <ns0:title>PTA</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PTA"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Tagtef1_sequence/1">
+    <ns0:title>Tagtef1 Sequence</ns0:title>
+    <sbol:elements>cagtactgacaataaaaagattcttgttttcaagaacttgtcatttgtatagtttttttatattgtagttgttctattttaatcaaatgttagcgtgatttatattttttttcgcctcgacatcatctgcccagatgcgaagttaagtgcgcagaaagtaatatcatgcgtcaatcgtatgtgaatgctggtcgctatactgctgtcgattcgatactaacgccgccatccagtgtcga</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tagtef1_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Tagtef1_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pykt6/1">
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <ns0:title>Pykt6</ns0:title>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:sequence rdf:resource="http://examples.org/Pykt6_sequence/1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pykt6"/>
+    <sbol:displayId>Pykt6</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:description>ykt6 promoter</ns0:description>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Ppfy1_sequence/1">
+    <ns0:title>Ppfy1 Sequence</ns0:title>
+    <sbol:elements>aggagacgttactttgtttatatatattagtatgtacaatcgcaaagaaatggagtgatgacatgttgtagtatttagtatgaggttactgtgtgggaggttttaccatgatttttggcgagaacacgccatgaaatgtctttgtacgaaactcattacccgcattaatattttttttctttttaaagctcagttgaccctttctcattcccttcttaaaacaactgtgtgatccttgagaaaagataaattacatacacaacataaacccaactacgatcgcaaat</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ppfy1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Ppfy1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Ttdh1/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ttdh1"/>
+    <ns0:description>tdh1 terminator</ns0:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:displayId>Ttdh1</sbol:displayId>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:sequence rdf:resource="http://examples.org/Ttdh1_sequence/1"/>
+    <ns0:title>Ttdh1</ns0:title>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Pzuo1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pzuo1_sequence"/>
+    <ns0:title>Pzuo1 Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ctggcgttttatcttttatgcatccaatatctaatattacttccgatcacgcatttagttctgattacagcagaaatcgtagcgcgatgagacatttcatcaaatggccttttttttttgggcaatttttttatatcttgaaatgatagttgccttgtactttcaaccgttcatttcattaagaacttgactaaatatgaacatttcttaaaaaaaaggttgacatataaaaataatcgaatataaacgatggaatttttataaaattaaacacatatatatatatatattaactataaatatgtcaaagaaaccatacaatcatagatttataactatcttttggatgacattaatgaacataacgctcctaatacaaatgtccaaaaaatattacccgcaaatacgaatcttttttttttctcgatgaaattttgcaaagagttcgaaatttttatttcaagagctggtagagaaaatttcataaggttttcctaccgatgcttttataaaatcttcgttttgtctcacatataccaacaagagtaac</sbol:elements>
+    <sbol:displayId>Pzuo1_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Ppre3/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Ppre3_sequence/1"/>
+    <ns0:description>pre3 promoter</ns0:description>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>Ppre3</sbol:displayId>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ppre3"/>
+    <ns0:title>Ppre3</ns0:title>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Ppfy1/1">
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns0:description>pfy1 promoter</ns0:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ppfy1"/>
+    <ns0:title>Ppfy1</ns0:title>
+    <sbol:sequence rdf:resource="http://examples.org/Ppfy1_sequence/1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:displayId>Ppfy1</sbol:displayId>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tadh1/1">
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <sbol:displayId>Tadh1</sbol:displayId>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Tadh1_sequence/1"/>
+    <ns0:title>Tadh1</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tadh1"/>
+    <ns0:description>adh1 terminator</ns0:description>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Tyol036w_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tyol036w_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>Tyol036w Sequence</ns0:title>
+    <sbol:displayId>Tyol036w_sequence</sbol:displayId>
+    <sbol:elements>ggaaaaaggtcttggctatatataacggcagacaaaatataagtatacacgtatatatggtggtaaacacgcatatactgtatgccatgtatttaccattacatagttatttacgcactctataaaaagttaacattgcattttaataaattccttaaattactctaattaggatggtagccctaccttt</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Trps14a_sequence/1">
+    <sbol:elements>ttatgcatgtattgtacttgtattgccgtattattttttacagttaaaaaatgtgtacatataattatatagcgcccataatcaaatcagctcatacgtcaatttagtaataaaaaaaagcccttataaccttttagttaagaagattcaagattgcgatttgattaacgtcattacggaaatgtaaggacacaattaccaagagttacaaaatcg</sbol:elements>
+    <sbol:displayId>Trps14a_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Trps14a_sequence"/>
+    <ns0:title>Trps14a Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tvma16/1">
+    <ns0:description>vma16 terminator</ns0:description>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>Tvma16</sbol:displayId>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tvma16"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:sequence rdf:resource="http://examples.org/Tvma16_sequence/1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <ns0:title>Tvma16</ns0:title>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/ACO_sequence/1">
+    <ns0:title>ACO Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ACO_sequence"/>
+    <sbol:displayId>ACO_sequence</sbol:displayId>
+    <sbol:elements>actgtttccaacttgaccagagactccaaggttaaccaaaacttgttggaagatcattctttcatcaactacaagcaaaatgtcgaaactttggatatcgtcagaaagagattgaacagaccattcacctacgctgaaaagattttgtacggtcacttggatgacccacacggtcaagatatccaaagaggtgtctcctacttgaaactaagaccagatcgtgttgcttgtcaagatgctactgctcaaatggctatcttacaattcatgtccgctggtttgcctcaagttgccaagccagtcaccgtccactgtgaccatttgatccaagctcaagtcggtggtgaaaaggacttgaagagagccattgacttgaacaaggaagtctacgacttcttggcttctgccactgctaaatacaacatgggtttctggaagccaggttccggtatcatccaccaaatcgttttggaaaactatgccttcccaggtgctttgatcatcggtactgactcccacactccaaatgccggtggtctaggtcaattggccatcggtgttggtggtgctgatgctgttgacgtcatggctggtagaccatgggaattgaaggctccaaagattttgggtgttaagttgaccggtaagatgaacggttggacttctccaaaggacatcatcttgaaattggctggtatcactactgttaagggtggtactggtaagattgtcgaatactttggtgacggtgtcgacactttctctgctaccggtatgggtaccatctgtaacatgggtgctgaaattggtgccaccacttctgttttcccattcaacaaatccatgattgaatacttggaagctaccggtagaggtaagattgctgatttcgctaagttataccacaaggacttgttgtctgccgacaaggacgctgaatacgatgaagttgtcgaaattgacttgaacactttggaaccatacatcaacggtccattcaccccagatttggctaccccagtttctaagatgaaggaagttgccgttgctaacaactggccattagatgttagagttggtttgattggttcttgtaccaactcctcttacgaagatatgtccagatctgcttccattgtcaaggatgctgctgctcacggtttgaaatctaagaccatcttcactgttaccccaggttctgaacaaatcagagccaccatcgaacgtgacggtcaattggaaactttcaaggaatttggtggtattgtcttggctaacgcttgtggtccatgtattggtcaatgggacagaagagatatcaagaagggtgacaagaacaccatcgtttcctcttacaacagaaacttcacttctagaaacgatggtaacccacaaacccacgcctttgttgcttctccagaattagtcactgctttcgctattgctggtgacttgagattcaacccattaaccgacaaattgaaggacaaggacggtaacgaatttatgttgaagcctcctcatggtgatggtttaccacaaagaggttacgatgctggtgaaaacacctaccaagctccaccagccgacagatccaccgtcgaagtcaaggtttctccaacttctgacagattacaattgttgaaacctttcaagccatgggatggtaaggacgctaaggacatgccaatcttaatcaaggctgttggtaagactaccaccgaccacatttccatggctggtccatggttgaaatacagaggtcacttggaaaacatctccaacaactacatgattggtgccattaatgccgaaaacaagaaggctaactgtgtcaagaacgtttacactggtgaatacaagggtgttccagacactgccagagactacagagatcaaggtatcaaatgggttgtcatcggtgacgaaaacttcggtgaaggttcttctcgtgaacacgctgctttggaaccaagattcttgggtggtttcgctattattaccaaatctttcgctcgtattcacgaaaccaacttgaagaagcaaggtctattgccattgaacttcaagaacccagccgactacgacaagatcaacccagatgacagaattgacatcttaggtttggctgaattggctccaggtaagccagtcaccatgagagttcacccaaagaacggtaagccatgggatgctgtcttgactcacactttcaacgatgaacaaatcgaatggttcaaatacggttctgctttgaacaagatcaaggctgatgaaaagaag</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tagtef1/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tagtef1"/>
+    <ns0:description>agtef1 terminator</ns0:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:33169"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>Tagtef1</sbol:displayId>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <ns0:title>Tagtef1</ns0:title>
+    <sbol:sequence rdf:resource="http://examples.org/Tagtef1_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Psbtdh3_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Psbtdh3_sequence"/>
+    <sbol:elements>cattcatctttcacctgccattagtaacccgacttctcattgagcgggttacggcagccacaggccacattccgaatgtctgggtgagcggtcccttttccagcatccactaaatatctcggatcccgctttttaatctggcttcctgaaaaaaatcaatggagtgatgcaaactgactggagcaaaaagctgacacaaggcaatcgacctacgtgtctgtctattttctcacaccttctattaccttctaactctctgggttggaaaaaactgaaaaaaaggttgtctccagtttccacaaatcatccccctgtttgattaataaatatataaagacgacaactatcgatcataaactcataaaactataactcctttacacttcttattttatagttattctattttaattcttattgattttaaaaccccaagaacttagtttcgaaaacacacacacacaaacaattaaa</sbol:elements>
+    <sbol:displayId>Psbtdh3_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>Psbtdh3 Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/PYC/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <ns0:description>pyruvate carboxylase gene PYC2 (YBR218C)</ns0:description>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:designNotes>Does not contain start or stop codons, codon optimized for S.cerevisiae, BsaI/BbsI sites eliminated</sbh:designNotes>
+    <sbol:displayId>PYC</sbol:displayId>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:sequence rdf:resource="http://examples.org/PYC_sequence/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/codon_optimisation/1"/>
+    <ns0:title>PYC</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PYC"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pact1/1">
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <ns0:description>act1 promoter</ns0:description>
+    <sbol:sequence rdf:resource="http://examples.org/Pact1_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:title>Pact1</ns0:title>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:displayId>Pact1</sbol:displayId>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pact1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Pvma6_sequence/1">
+    <sbol:elements>aaggcaagaaaaaaaattatgacccatacattttggtgcatgggtgatattttgtctttattattattagtaactttcagattaagacaaggaagaaagaaggaaaaaaggtaggacatgaagcatgagagataatcaaatttgctgaatgctgtgatactggtatacaaatagaagtgctgaagttcaagttatttggtaacatgcaagtttcattaatattttgttattatgtatttcaaggacaaaatgaattgtaggaagatgaaaaagtgatttcatcccccaacgattcatactctgggccgtacccttcttatcttacagacgcaaagtcagcagattcttgtattatggaactaagtaatttccgcgcacctattgttacgctgatatctgcgtacaaagtgacgtatttttaaaatatcttcgatatactgcaaaaacaaaagaacaattgacctcttaaccctttaaggtatggcataaagaacgctaagagctagcaaaagagtataccattcggatcgtgttgctaaagtcttgcgaa</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>Pvma6_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pvma6_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>Pvma6 Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pvma6/1">
+    <sbol:sequence rdf:resource="http://examples.org/Pvma6_sequence/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns0:title>Pvma6</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:displayId>Pvma6</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <ns0:description>vma6 promoter</ns0:description>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pvma6"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Peno2_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Peno2_sequence"/>
+    <sbol:elements>gtgtcgacgctgcgggtatagaaagggttctttactctatagtacctcctcgctcagcatctgcttcttcccaaagatgaacgcggcgttatgtcactaacgacgtgcaccaacttgcggaaagtggaatcccgttccaaaactggcatccactaattgatacatctacacaccgcacgccttttttctgaagcccactttcgtggactttgccatatgcaaaattcatgaagtgtgataccaagtcagcatacacctcactagggtagtttctttggttgtattgatcatttggttcatcgtggttcattaattttttttctccattgctttctggctttgatcttactatcatttggatttttgtcgaaggttgtagaattgtatgtgacaagtggcaccaagcatatataaaaaaaaaaagcattatcttcctaccagagttgattgttaaaaacgtatttatagcaaacgcaattgtaattaattcttattttgtatcttttcttcccttgtctcaatcttttatttttattttatttttcttttcttagtttctttcataacaccaagcaactaatactataacatacaataat</sbol:elements>
+    <sbol:displayId>Peno2_sequence</sbol:displayId>
+    <ns0:title>Peno2 Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Taip1/1">
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns0:description>aip1 terminator</ns0:description>
+    <sbol:displayId>Taip1</sbol:displayId>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Taip1_sequence/1"/>
+    <ns0:title>Taip1</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Taip1"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:version>1</sbol:version>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Psmtef1/1">
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:sequence rdf:resource="http://examples.org/Psmtef1_sequence/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:114525"/>
+    <sbol:displayId>Psmtef1</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:title>Psmtef1</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Psmtef1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:description>smtef1 promoter</ns0:description>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/CTP/1">
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns0:description>mitochondrial citrate transporter gene CTP1 (YBR291C)</ns0:description>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <ns0:title>CTP</ns0:title>
+    <sbol:sequence rdf:resource="http://examples.org/CTP_sequence/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/codon_optimisation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/CTP"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:displayId>CTP</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:designNotes>Does not contain start or stop codons, codon optimized for S.cerevisiae, BsaI/BbsI sites eliminated</sbh:designNotes>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Psptdh3/1">
+    <ns0:title>Psptdh3</ns0:title>
+    <sbol:displayId>Psptdh3</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:version>1</sbol:version>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:27291"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Psptdh3"/>
+    <sbol:sequence rdf:resource="http://examples.org/Psptdh3_sequence/1"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns0:description>sptdh3 promoter</ns0:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Tadh1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>cgaatttcttatgatttatgatttttattattaaataagttataaaaaaaataagtgtatacaaattttaaagtgacacttaggttttaaaacgaaaattc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tadh1_sequence"/>
+    <sbol:displayId>Tadh1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>Tadh1 Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tadh2/1">
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <ns0:description>adh2 terminator</ns0:description>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tadh2"/>
+    <sbol:displayId>Tadh2</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Tadh2_sequence/1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns0:title>Tadh2</ns0:title>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Trps14a/1">
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Trps14a_sequence/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:displayId>Trps14a</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Trps14a"/>
+    <ns0:description>rps15a terminator</ns0:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:title>Trps14a</ns0:title>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Ttpi1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ttpi1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Ttpi1_sequence</sbol:displayId>
+    <ns0:title>Ttpi1 Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gattaatataattatataaaaatattatcttcttttctttatatctagtgttatgtaaaataaattgatgactacggaaagcttttttatattgtttctttttcattctgagccacttaaatttcgtgaatgttcttgtaagggacggtagatttacaagtgatacaacaaaaagcaaggcgctttttctaataaaaagaagaaaagcatttaacaattgaacacctctatatcaacgaagaatattactttgtctctaaatccttgtaaaatgtgtacgatctctatatgggttactca</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Peno2/1">
+    <sbol:displayId>Peno2</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Peno2"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <ns0:description>eno2 promoter</ns0:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Peno2_sequence/1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns0:title>Peno2</ns0:title>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/CSC/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/CSC"/>
+    <ns0:description>cytosolic citrate synthase (gltA)</ns0:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:displayId>CSC</sbol:displayId>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/codon_optimisation/1"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns0:title>CSC</ns0:title>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbh:designNotes>Does not contain start or stop codons, codon optimized for S.cerevisiae, BsaI/BbsI sites eliminated</sbh:designNotes>
+    <sbol:sequence rdf:resource="http://examples.org/CSC_sequence/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/ACDH_sequence/1">
+    <sbol:elements>gaatctttggaattggaacaattagtcaagaaggttttgttggaaaaattggctgaacaaaaggaagttccaaccaagaccaccacccaaggtgccaagtccggtgttttcgacaccgtcgatgaagctgtccaagctgctgtcattgctcaaaactgttacaaggaaaaatctttggaagaaagaagaaacgttgtcaaggccatcagagaagctttgtacccagaaatcgaaaccattgccaccagagctgttgctgaaaccggtatgggtaatgtcactgacaagatcttgaagaacactttggccatcgaaaagaccccaggtgttgaagatttgtacactgaagttgccactggtgacaacggtatgactttgtacgaattgtctccatacggtgtcatcggtgctgttgccccatctaccaacccaactgaaactttgatctgtaactccattggtatgttggctgctggtaatgctgttttctactctcctcacccaggtgccaagaacatctctttatggttaatcgaaaaattgaacaccattgtccgtgactcttgtggtatcgacaacttgattgtcactgttgccaagccttccatccaagctgctcaagaaatgatgaaccatccaaaggtcccattgttggttatcactggtggtccaggtgttgtcttgcaagctatgcaatctggtaagaaggtcattggtgctggtgctggtaacccaccatctatcgtcgatgaaactgctaacattgaaaaggctgccgctgatatcgttgacggtgcttctttcgaccacaacatcctatgtattgctgaaaaatccgttgttgccgttgactccattgctgatttcttattattccaaatggaaaagaacggtgctttgcacgttaccaacccatctgatatccaaaaattggaaaaggttgctgtcactgacaagggtgtcaccaacaagaaattggttggtaagtctgctactgaaatcttgaaggaagctggtattgcttgtgacttcactccaagattaatcattgtcgaaactgaaaagtcccacccatttgccaccgttgaattgttgatgccaattgtcccagttgtcagagttccagacttcgatgaagctttggaagttgccatcgaattggaacaaggtttgcaccacactgctaccatgcactctcaaaacatctccagattgaacaaggctgctagagacatgcaaacttccatctttgtcaagaacggtccatctttcgctggtttaggtttcagaggtgaaggttccactactttcaccattgctaccccaactggtgaaggtaccaccaccgctagacatttcgctagaagaagaagatgtgttttgactgatggtttctccatacgt</sbol:elements>
+    <sbol:displayId>ACDH_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ACDH_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>ACDH Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Tpdc1_sequence/1">
+    <ns0:title>Tpdc1 Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gcgatttaatctctaattattagttaaagttttataagcatttttatgtaacgaaaaataaattggttcatattattactgcactgtcacttaccatggaaagaccagacaagaagttgccgacagtctgttgaattggcctggttaggcttaagtctgggtccgcttctttacaaatttggagaatttctcttaaacgatatgtatattcttttcgttggaaaagatgtcttccaaaaaaaaaaccgatgaattagtggaaccaaggaaaaaaaaagaggtatccttgattaaggaaca</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tpdc1_sequence"/>
+    <sbol:displayId>Tpdc1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Phta1_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Phta1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>aaagggtgcaacgcgcgaaaaagtgagaacagccttccctttcgggcgacattgagcgtctaaccatagttaacgacccaaccgcgttttcttcaaatttgaactcgccgagctcacaaataattcattagcgctgttccaaaattttcgcctcactgtgcgaagctattggaatggagtgtatttggtggctcaaaaaaagagcacaatagttaactcgtcgttgttgaagaaacgcccgtagagatatgtggtttctcatgctgttatttgttattgcccactttgttgatttcaaaatcttttctcacccccttccccgttcacgaagccagccagtggatcgtaaatactagcaataagtcttgacctaaaaaatatataaataagtctcctaatcagcttgtagattttctggtcttgttgaaccatcatctatttacttccaatctgtacttctcttcttgatactacatcatcatacggatttggttatttctcagtgaataaacaacttcaaaacaaacaaatttcatacatataaaatataa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Phta1_sequence"/>
+    <ns0:title>Phta1 Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Tprm9_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tprm9_sequence"/>
+    <sbol:displayId>Tprm9_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:title>Tprm9 Sequence</ns0:title>
+    <sbol:elements>cagatgacgggagacactagcacacaactttaccaggcaaggtatttgacgctagcatgtgtccaattcagtgtcatttatgattttttgtagtaggatataaatatatacagcgctccaaatagtgcggttgccccaaaaacaccacggaacctcatctgttctcgtactttgttgtgacaaagtagctcactgccttattatcacattttcattatgcaacgcttcggaaaatacgatgttgaaaat</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/CAD/1">
+    <ns0:description>cis-aconitate decarboxylase (cadA)</ns0:description>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/codon_optimisation/1"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:displayId>CAD</sbol:displayId>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/CAD"/>
+    <ns0:title>CAD</ns0:title>
+    <sbh:designNotes>Does not contain start or stop codons, codon optimized for S.cerevisiae, BsaI/BbsI sites eliminated</sbh:designNotes>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:33178"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/CAD_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pzuo1/1">
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <ns0:title>Pzuo1</ns0:title>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pzuo1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:sequence rdf:resource="http://examples.org/Pzuo1_sequence/1"/>
+    <sbol:displayId>Pzuo1</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns0:description>zuo1 promoter</ns0:description>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Teno1/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Teno1_sequence/1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:version>1</sbol:version>
+    <ns0:title>Teno1</ns0:title>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns0:description>eno1 terminator</ns0:description>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:displayId>Teno1</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Teno1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tecm10/1">
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns0:description>ecm10 terminator</ns0:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>Tecm10</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tecm10"/>
+    <sbol:sequence rdf:resource="http://examples.org/Tecm10_sequence/1"/>
+    <ns0:title>Tecm10</ns0:title>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tefm1/1">
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:version>1</sbol:version>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns0:title>Tefm1</ns0:title>
+    <sbol:displayId>Tefm1</sbol:displayId>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tefm1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:description>efm1 terminator</ns0:description>
+    <sbol:sequence rdf:resource="http://examples.org/Tefm1_sequence/1"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Trpl15a/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:title>Trpl15a</ns0:title>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:version>1</sbol:version>
+    <ns0:description>rpl15a terminator</ns0:description>
+    <sbol:displayId>Trpl15a</sbol:displayId>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Trpl15a_sequence/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Trpl15a"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Ttal1/1">
+    <sbol:displayId>Ttal1</sbol:displayId>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns0:description>tal1 terminator</ns0:description>
+    <sbol:sequence rdf:resource="http://examples.org/Ttal1_sequence/1"/>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns0:title>Ttal1</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ttal1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/OAC_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/OAC_sequence"/>
+    <sbol:displayId>OAC_sequence</sbol:displayId>
+    <ns0:title>OAC Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tcatctgacaactctaaacaagataaacaaattgaaaaaacagccgcccagaagatatcgaagtttggttcgtttgtggctggtgggctagcagcatgtatagctgttacagttactaatccgatcgaattgattaaaatcagaatgcagcttcaaggtgaaatgtcagcatcagctgcaaaagtttataaaaatccaatccaaggtatggcggtaattttcaaaaacgaaggtataaaaggtctgcaaaaagggttaaatgctgcttatatctatcaaattgggctaaatggttccagattagggttttatgagccaatcagatcatcattaaatcagcttttcttcccagatcaagagccacataaggtacagagcgtcggagttaacgtcttttctggtgccgcatctggtataattggtgcagtcattggctctccattattcttggtgaaaacaagacttcaatcatattccgagtttataaaaattggtgaacaaacgcactacaccggtgtttggaacgggttagtaaccatttttaaaaccgaaggtgttaagggtctattcagaggtattgatgcggcaattttaaggacaggtgctggttcctctgttcaactacctatctacaacacagcaaagaacattttggtcaaaaatgatctgatgaaagatggcccagcattacatttaactgctagtactatctctgggttaggtgttgccgtcgttatgaacccatgggatgtcattttgacaagaatctataatcaaaaaggtgacttgtacaagggacctatagattgtttggtcaaaactgttagaatcgaaggtgtaaccgctttgtataagggttttgcagctcaagtgttcagaatcgcacctcatacaatcatgtgtttgaccttcatggaacagacaatgaaactagtttattcgatagagtcgagagttttaggccataat</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Ptdh3/1">
+    <sbol:sequence rdf:resource="http://examples.org/Ptdh3_sequence/1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ptdh3"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>Ptdh3</sbol:displayId>
+    <ns0:description>tdh3 promoter</ns0:description>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:title>Ptdh3</ns0:title>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Ptef1/1">
+    <sbol:sequence rdf:resource="http://examples.org/Ptef1_sequence/1"/>
+    <sbol:displayId>Ptef1</sbol:displayId>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ptef1"/>
+    <ns0:title>Ptef1</ns0:title>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <ns0:description>tef1 promoter</ns0:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Ptdh3_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ptdh3_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>Ptdh3 Sequence</ns0:title>
+    <sbol:elements>ttagtcaaaaaattagccttttaattctgctgtaacccgtacatgcccaaaatagggggcgggttacacagaatatataacatcgtaggtgtctgggtgaacagtttattcctggcatccactaaatataatggagcccgctttttaagctggcatccagaaaaaaaaagaatcccagcaccaaaatattgttttcttcaccaaccatcagttcataggtccattctcttagcgcaactacagagaacaggggcacaaacaggcaaaaaacgggcacaacctcaatggagtgatgcaacctgcctggagtaaatgatgacacaaggcaattgacccacgcatgtatctatctcattttcttacaccttctattaccttctgctctctctgatttggaaaaagctgaaaaaaaaggttgaaaccagttccctgaaattattcccctacttgactaataagtatataaagacggtaggtattgattgtaattctgtaaatctatttcttaaacttcttaaattctacttttatagttagtcttttttttagttttaaaacaccaagaacttagtttcgaataaacacacataaacaaacaa</sbol:elements>
+    <sbol:displayId>Ptdh3_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/ITE_sequence/1">
+    <sbol:elements>ggtcacggtgacactgaatctccaaacccaaccaccaccactgaaggttctggtcaaaacgaacctgaaaagaagggtcgtgacattccattatggagaaagtgtgttatcactttcgttgtttcctggatgactttggttgtcactttctcctccacctgtttgttgccagctgctccagaaattgctaacgaattcgatatgaccgtcgaaaccattaacatttccaacgctggtgttttggttgccatgggttactcttctttgatctggggtccaatgaacaaattggttggtagaagaacctcttacaacttggccatctccatgttgtgtgcctgttctgctggtactgctgctgccatcaacgaagaaatgttcattgctttccgtgtcttgtctggcttgaccggtacttctttcatggtttccggtcaaaccgtcttggctgatatctttgaaccagtttacagaggtactgctgtcggtttcttcatggctggtactctatccggtccagccattggtccatgtgtcggtggtgtcattgtcactttcacctcctggagagttatcttctggttacaattgggtatgtctggtttaggtttggttttgtctctattattcttcccaaagatcgaaggtaactctgaaaaggtttctactgctttcaagccaaccactttggtcaccatcatctccaagttctctccaaccgatgtcttgaagcaatgggtttacccaaatgtctttttggctgatttgtgttgtggtttgttggccatcactcaatactccatcttgacttctgccagagctatcttcaactccagattccatttgaccaccgctttggtttccggtttattctacttggctccaggtgctggtttcttgattggttctttggttggtggtaaattgtctgacagaaccgtcagaagatacattgtcaagagaggtttcagattacctcaagacagattgcactctggtttgatcactttgtttgctgtcttgccagctggtactttgatctacggttggactttgcaagaggacaagggtgacatggttgttccaatcattgctgctttctttgctggttggggtttgatgggttctttcaactgtttgaacacctacgttgctggtttattccacactttgatctacttgttcccattgtgtacctgtccacaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ITE_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>ITE_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:title>ITE Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Tcyc1/1">
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Tcyc1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:version>1</sbol:version>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <ns0:title>Tcyc1</ns0:title>
+    <sbol:displayId>Tcyc1</sbol:displayId>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <ns0:description>cyc1 terminator</ns0:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Tcyc1_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Ttpi1/1">
+    <sbol:displayId>Ttpi1</sbol:displayId>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29753070"/>
+    <ns0:description>tpi1 terminator</ns0:description>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Ttpi1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Ttpi1_sequence/1"/>
+    <ns0:title>Ttpi1</ns0:title>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:4932"/>
+    <sbol:version>1</sbol:version>
+    <obo:OBI_0001617>29753070</obo:OBI_0001617>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

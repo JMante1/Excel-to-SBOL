@@ -1,0 +1,579 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://www.w3.org/ns/prov#">
+  <sbol:Sequence rdf:about="http://examples.org/B0034m_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/B0034m_sequence"/>
+    <ns0:title>B0034m Sequence</ns0:title>
+    <sbol:elements>agagaaagaggagaaatacta</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>B0034m_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23102/1">
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23102_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23102"/>
+    <sbol:displayId>J23102</sbol:displayId>
+    <ns0:description>Constitutive promoter, part of Anderson series</ns0:description>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns0:title>J23102</ns0:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/C0012m/1">
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>C0012m</sbol:displayId>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/C0012m"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <sbol:sequence rdf:resource="http://examples.org/C0012m_sequence/1"/>
+    <ns0:title>C0012m</ns0:title>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns0:description>lacI repressor with LVA degradation tag</ns0:description>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23103/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>J23103</sbol:displayId>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <sbol:version>1</sbol:version>
+    <ns0:title>J23103</ns0:title>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23103"/>
+    <ns0:description>Constitutive promoter, part of Anderson series</ns0:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23103_sequence/1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/cre/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/cre"/>
+    <sbol:displayId>cre</sbol:displayId>
+    <ns0:description>Cre recombinase</ns0:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns0:title>cre</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/cre_sequence/1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/BCD8/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <sbol:sequence rdf:resource="http://examples.org/BCD8_sequence/1"/>
+    <ns0:description>Bicistronic RBS design, weak</ns0:description>
+    <sbol:displayId>BCD8</sbol:displayId>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns0:title>BCD8</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/BCD8"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/E0030_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/E0030_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>E0030 Sequence</ns0:title>
+    <sbol:elements>atggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccttcggctacggcctgcaatgcttcgcccgctaccccgaccacatgaagctgcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcatggccgacaagcagaagaacggcatcaaggtgaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagctaccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagtaataa</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>E0030_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/E1010m_sequence/1">
+    <sbol:elements>atggcttcctccgaggatgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaagatggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaggatggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaggactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaataa</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>E1010m_sequence</sbol:displayId>
+    <ns0:title>E1010m Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/E1010m_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/eBFP2/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>eBFP2</sbol:displayId>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <ns0:description>Blue fluorescent protein</ns0:description>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/eBFP2"/>
+    <ns0:title>eBFP2</ns0:title>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/eBFP2_sequence/1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/E0040m_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/E0040m_sequence"/>
+    <sbol:elements>atgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagatcacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>E0040m_sequence</sbol:displayId>
+    <ns0:title>E0040m Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/E0030/1">
+    <ns0:description>Enhanced yellow fluorescent protein</ns0:description>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>E0030</sbol:displayId>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <sbol:version>1</sbol:version>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/E0030"/>
+    <ns0:title>E0030</ns0:title>
+    <sbol:sequence rdf:resource="http://examples.org/E0030_sequence/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/R0040/1">
+    <sbol:displayId>R0040</sbol:displayId>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:title>R0040</ns0:title>
+    <sbol:sequence rdf:resource="http://examples.org/R0040_sequence/1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:version>1</sbol:version>
+    <ns0:description>tetR repressible promoter (Ptet)</ns0:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/R0040"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23107/1">
+    <ns0:title>J23107</ns0:title>
+    <ns0:description>Constitutive promoter, part of Anderson series</ns0:description>
+    <sbol:sequence rdf:resource="http://examples.org/J23107_sequence/1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:version>1</sbol:version>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:displayId>J23107</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23107"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/R0010_sequence/1">
+    <sbol:displayId>R0010_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/R0010_sequence"/>
+    <ns0:title>R0010 Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>caatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcagtgagcgcaacgcaattaatgtgagttagctcactcattaggcaccccaggctttacactttatgcttccggctcgtatgttgtgtggaattgtgagcggataacaatttcacaca</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23102_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23102_sequence"/>
+    <ns0:title>J23102 Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>J23102_sequence</sbol:displayId>
+    <sbol:elements>ttgacagctagctcagtcctaggtactgtgctagc</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/R0063/1">
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/R0063_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns0:title>R0063</ns0:title>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:displayId>R0063</sbol:displayId>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/R0063"/>
+    <ns0:description>luxR/HSL regulated promoter (PluxR-pL)</ns0:description>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/BCD12/1">
+    <sbol:sequence rdf:resource="http://examples.org/BCD12_sequence/1"/>
+    <ns0:description>Bicistronic RBS design, medium strength</ns0:description>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/BCD12"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <ns0:title>BCD12</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:displayId>BCD12</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23100/1">
+    <ns0:description>Constitutive promoter, part of Anderson series</ns0:description>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23100"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:version>1</sbol:version>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:displayId>J23100</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/J23100_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns0:title>J23100</ns0:title>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/C0080_sequence/1">
+    <ns0:title>C0080 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/C0080_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>atggctgaagcgcaaaatgatcccctgctgccgggatactcgtttaacgcccatctggtggcgggtttaacgccgattgaggccaatggttatctcgatttttttatcgaccgaccgctgggaatgaaaggttatattctcaatctcaccattcgcggtcagggggtggtgaaaaatcagggacgagaatttgtctgccgaccgggtgatattttgctgttcccgccaggagagattcatcactacggtcgtcatccggaggctcgcgaatggtatcaccagtgggtttactttcgtccgcgcgcctactggcatgaatggcttaactggccgtcaatatttgccaatacgggtttctttcgcccggatgaagcgcaccagccgcatttcagcgacctgtttgggcaaatcattaacgccgggcaaggggaagggcgctattcggagctgctggcgataaatctgcttgagcaattgttactgcggcgcatggaagcgattaacgagtcgctccatccaccgatggataatcgggtacgcgaggcttgtcagtacatcagcgatcacctggcagacagcaattttgatatcgccagcgtcgcacagcatgtttgcctgtcgccgtcgcgtctgtcacatcttttccgccagcagttagggattagcgtcttaagctggcgcgaggaccaacgcatcagccaggcgaagctgcttttgagcactacccggatgcctatcgccaccgtcggtcgcaatgttggttttgacgatcaactctatttctcgcgagtatttaaaaaatgcaccggggccagcccgagcgagttccgtgccggttgtgaagaaaaagtgaatgatgtagccgtcaagttgtcagctgcaaacgacgaaaactacgctttagtagcttaataa</sbol:elements>
+    <sbol:displayId>C0080_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/R0010/1">
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>R0010</sbol:displayId>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <ns0:title>R0010</ns0:title>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <sbol:sequence rdf:resource="http://examples.org/R0010_sequence/1"/>
+    <ns0:description>lacI regulated promoter (Plac)</ns0:description>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/R0010"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/R0063_sequence/1">
+    <sbol:elements>acctgtacgatcctacaggtgcttatgttaagtaattgtattcccagcgatacaatagtgtgacaaaaatccaatttattagaatcaaatgtcaatccattaccgttttaatgatatataacacgcaaaacttgcgacaaacaataggtaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>R0063 Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>R0063_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/R0063_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/E0040m/1">
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:displayId>E0040m</sbol:displayId>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <ns0:title>E0040m</ns0:title>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/E0040m_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/E0040m"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:description>Green fluorescent protein</ns0:description>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/J23106_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23106_sequence"/>
+    <sbol:version>1</sbol:version>
+    <ns0:title>J23106 Sequence</ns0:title>
+    <sbol:displayId>J23106_sequence</sbol:displayId>
+    <sbol:elements>tttacggctagctcagtcctaggtatagtgctagc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23116/1">
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <ns0:description>Constitutive promoter, part of Anderson series</ns0:description>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23116_sequence/1"/>
+    <sbol:displayId>J23116</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23116"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns0:title>J23116</ns0:title>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/J23103_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ctgatagctagctcagtcctagggattatgctagc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>J23103 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23103_sequence"/>
+    <sbol:displayId>J23103_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23100_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23100_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ttgacggctagctcagtcctaggtacagtgctagc</sbol:elements>
+    <ns0:title>J23100 Sequence</ns0:title>
+    <sbol:displayId>J23100_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/B0034m/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:designNotes>4bp upstream / 5bp downstream added to mimic BioBrick scar</sbh:designNotes>
+    <sbol:displayId>B0034m</sbol:displayId>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <ns0:title>B0034m</ns0:title>
+    <ns0:description>Strong RBS</ns0:description>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <sbol:sequence rdf:resource="http://examples.org/B0034m_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/B0034m"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/J23116_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23116_sequence"/>
+    <sbol:elements>ttgacagctagctcagtcctagggactatgctagc</sbol:elements>
+    <ns0:title>J23116 Sequence</ns0:title>
+    <sbol:displayId>J23116_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/C0012m_sequence/1">
+    <sbol:elements>atggtgaatgtgaaaccagtaacgttatacgatgtcgcagagtatgccggtgtctcttatcagaccgtttcccgcgtggtgaaccaggccagccacgtttctgcgaaaacgcgggaaaaagtggaagcggcgatggcggagctgaattacattcccaaccgcgtggcacaacaactggcgggcaaacagtcgttgctgattggcgttgccacctccagtctggccctgcacgcgccgtcgcaaattgtcgcggcgattaaatctcgcgccgatcaactgggtgccagcgtggtggtgtcgatggtagaacgaagcggcgtcgaagcctgtaaagcggcggtgcacaatcttctcgcgcaacgcgtcagtgggctgatcattaactatccgctggatgaccaggatgccattgctgtggaagctgcctgcactaatgttccggcgttatttcttgatgtctctgaccagacacccatcaacagtattattttctcccatgaggacggtacgcgactgggcgtggagcatctggtcgcattgggtcaccagcaaatcgcgctgttagcgggcccattaagttctgtctcggcgcgtctgcgtctggctggctggcataaatatctcactcgcaatcaaattcagccgatagcggaacgggaaggcgactggagtgccatgtccggttttcaacaaaccatgcaaatgctgaatgagggcatcgttcccactgcgatgctggttgccaacgatcagatggcgctgggcgcaatgcgcgccattaccgagtccgggctgcgcgttggtgcggatatctcggtagtgggatacgacgataccgaagatagctcatgttatatcccgccgttaaccaccatcaaacaggattttcgcctgctggggcaaaccagcgtggaccgcttgctgcaactctctcagggccaggcggtgaagggcaatcagctgttgcccgtctcactggtgaaaagaaaaaccaccctggcgcccaatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcaggctgcaaacgacgaaaactacgctttagtagcttaataactctgatagtgctagtgtagatctc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/C0012m_sequence"/>
+    <ns0:title>C0012m Sequence</ns0:title>
+    <sbol:displayId>C0012m_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/I13453_sequence/1">
+    <sbol:displayId>I13453_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/I13453_sequence"/>
+    <ns0:title>I13453 Sequence</ns0:title>
+    <sbol:elements>acattgattatttgcacggcgtcacactttgctatgccatagcatttttatccataagattagcggatcctacctgacgctttttatcgcaactctctactgtttctccataccgtttttttgggctagc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/E1010m/1">
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>E1010m</sbol:displayId>
+    <ns0:description>Red fluorescent protein</ns0:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:title>E1010m</ns0:title>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="http://examples.org/E1010m_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/E1010m"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/B0015/1">
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/B0015"/>
+    <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
+    <sbol:version>1</sbol:version>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:displayId>B0015</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/B0015_sequence/1"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <ns0:title>B0015</ns0:title>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/B0015_sequence/1">
+    <sbol:elements>ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/B0015_sequence"/>
+    <sbol:displayId>B0015_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:title>B0015 Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/C0080/1">
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/C0080"/>
+    <sbol:sequence rdf:resource="http://examples.org/C0080_sequence/1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns0:description>araC regulatory protein with LVA degradation tag</ns0:description>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>C0080</sbol:displayId>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:title>C0080</ns0:title>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/eBFP2_sequence/1">
+    <sbol:displayId>eBFP2_sequence</sbol:displayId>
+    <sbol:elements>atggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgaggggcgagggcgagggcgatgccaccaacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgagccacggcgtgcagtgcttcgcccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcacctacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcgtcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaacttcaacagccacaacatctatatcatggccgtcaagcagaagaacggcatcaaggtgaacttcaagatccgccacaacgtggaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacagccactacctgagcacccagtccgtgctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttccgcaccgccgccgggatcactctcggcatggacgagctgtacaagtaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/eBFP2_sequence"/>
+    <sbol:version>1</sbol:version>
+    <ns0:title>eBFP2 Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/R0040_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/R0040_sequence"/>
+    <sbol:elements>tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcac</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>R0040_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:title>R0040 Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/B0032m_sequence/1">
+    <sbol:elements>agagtcacacaggaaagtacta</sbol:elements>
+    <ns0:title>B0032m Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>B0032m_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/B0032m_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/B0032m/1">
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/B0032m_sequence/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <ns0:title>B0032m</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/B0032m"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbh:designNotes>4bp upstream / 5bp downstream added to mimic BioBrick scar</sbh:designNotes>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:version>1</sbol:version>
+    <ns0:description>Medium RBS</ns0:description>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:displayId>B0032m</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/BCD8_sequence/1">
+    <ns0:title>BCD8 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/BCD8_sequence"/>
+    <sbol:elements>gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcatcggaccgtttct</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>BCD8_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/I13453/1">
+    <ns0:description>Pbad promoter</ns0:description>
+    <ns0:title>I13453</ns0:title>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/I13453_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/I13453"/>
+    <sbol:displayId>I13453</sbol:displayId>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/BCD2/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/BCD2"/>
+    <ns0:title>BCD2</ns0:title>
+    <sbol:sequence rdf:resource="http://examples.org/BCD2_sequence/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:displayId>BCD2</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <ns0:description>Bicistronic RBS design, strong</ns0:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23106/1">
+    <sbol:displayId>J23106</sbol:displayId>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <ns0:title>J23106</ns0:title>
+    <ns0:description>Constitutive promoter, part of Anderson series</ns0:description>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:version>1</sbol:version>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23106"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <sbol:sequence rdf:resource="http://examples.org/J23106_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/B0033m_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/B0033m_sequence"/>
+    <ns0:title>B0033m Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>B0033m_sequence</sbol:displayId>
+    <sbol:elements>agagtcacacaggactacta</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/BCD2_sequence/1">
+    <sbol:elements>gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgctaaggaggttttct</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/BCD2_sequence"/>
+    <sbol:version>1</sbol:version>
+    <ns0:title>BCD2 Sequence</ns0:title>
+    <sbol:displayId>BCD2_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/C0040_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>C0040 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/C0040_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tccagattagataaaagtaaagtgattaacagcgcattagagctgcttaatgaggtcggaatcgaaggtttaacaacccgtaaactcgcccagaagctaggtgtagagcagcctacattgtattggcatgtaaaaaataagcgggctttgctcgacgccttagccattgagatgttagataggcaccatactcacttttgccctttagaaggggaaagctggcaagattttttacgtaataacgctaaaagttttagatgtgctttactaagtcatcgcgatggagcaaaagtacatttaggtacacggcctacagaaaaacagtatgaaactctcgaaaatcaattagcctttttatgccaacaaggtttttcactagagaatgcattatatgcactcagcgctgtggggcattttactttaggttgcgtattggaagatcaagagcatcaagtcgctaaagaagaaagggaaacacctactactgatagtatgccgccattattacgacaagctatcgaattatttgatcaccaaggtgcagagccagccttcttattcggccttgaattgatcatatgcggattagaaaaacaacttaaatgtgaaagtgggtccgctgcaaacgacgaaaactacgctttagtagcttaataa</sbol:elements>
+    <sbol:displayId>C0040_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23107_sequence/1">
+    <ns0:title>J23107 Sequence</ns0:title>
+    <sbol:displayId>J23107_sequence</sbol:displayId>
+    <sbol:elements>tttacggctagctcagccctaggtattatgctagc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23107_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/C0040/1">
+    <sbol:displayId>C0040</sbol:displayId>
+    <ns0:description>tetR protein with LVA degradation tag</ns0:description>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns0:title>C0040</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/C0040_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/C0040"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/B0033m/1">
+    <ns0:title>B0033m</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/B0033m"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <ns0:description>Weak RBS</ns0:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:sequence rdf:resource="http://examples.org/B0033m_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:designNotes>4bp upstream / 5bp downstream added to mimic BioBrick scar</sbh:designNotes>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:displayId>B0033m</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/BCD12_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>BCD12 Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>BCD12_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/BCD12_sequence"/>
+    <sbol:elements>gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgctgcggagggtttct</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/cre_sequence/1">
+    <sbol:elements>atgtccaatttactgaccgtacaccaaaatttgcctgcattaccggtcgatgcaacgagtgatgaggttcgcaagaacctgatggacatgttcagggatcgccaggcgttttctgagcatacctggaaaatgcttctgtccgtttgccggtcgtgggcggcatggtgcaagttgaataaccggaaatggtttcccgcagaacctgaagatgttcgcgattatcttctatatcttcaggcgcgcggtctggcagtaaaaactatccagcaacatttgggccagctaaacatgcttcatcgtcggtccgggctgccacgaccaagtgacagcaatgctgtttcactggttatgcggcgaatccgaaaagaaaacgttgatgccggtgaacgtgcaaaacaggctctagcgttcgaacgcactgatttcgaccaggttcgttcactcatggaaaatagcgatcgctgccaggatatacgtaatctggcatttctggggattgcttataacaccctgttacgtatagccgaaattgccaggatcagggttaaagatatctcacgtactgacggtgggagaatgttaatccatattggcagaacgaaaacgctggttagcaccgcaggtgtagagaaggcacttagcctgggggtaactaaactggtcgagcgatggatttccgtctctggtgtagctgatgatccgaataactacctgttttgccgggtcagaaaaaatggtgttgccgcgccatctgccaccagccagctatcaactcgcgccctggaagggatttttgaagcaactcatcgattgatttacggcgctaaggatgactctggtcagagatacctggcctggtctggacacagtgcccgtgtcggagccgcgcgagatatggcccgcgctggagtttcaataccggagatcatgcaagctggtggctggaccaatgtaaatattgtcatgaactatatccgtaacctggatagtgaaacaggggcaatggtgcgcctgctggaagatggcgattag</sbol:elements>
+    <sbol:displayId>cre_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <ns0:title>cre Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/cre_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/C0062/1">
+    <ns0:description>luxR repressor/activator</ns0:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>26479688</obo:OBI_0001617>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/cut_out_of_plasmid/1"/>
+    <sbol:displayId>C0062</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/C0062"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <ns1:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26479688"/>
+    <ns0:title>C0062</ns0:title>
+    <sbol:sequence rdf:resource="http://examples.org/C0062_sequence/1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:562"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/C0062_sequence/1">
+    <sbol:displayId>C0062_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>atgaaaaacataaatgccgacgacacatacagaataattaataaaattaaagcttgtagaagcaataatgatattaatcaatgcttatctgatatgactaaaatggtacattgtgaatattatttactcgcgatcatttatcctcattctatggttaaatctgatatttcaatcctagataattaccctaaaaaatggaggcaatattatgatgacgctaatttaataaaatatgatcctatagtagattattctaactccaatcattcaccaattaattggaatatatttgaaaacaatgctgtaaataaaaaatctccaaatgtaattaaagaagcgaaaacatcaggtcttatcactgggtttagtttccctattcatacggctaacaatggcttcggaatgcttagttttgcacattcagaaaaagacaactatatagatagtttatttttacatgcgtgtatgaacataccattaattgttccttctctagttgataattatcgaaaaataaatatagcaaataataaatcaaacaacgatttaaccaaaagagaaaaagaatgtttagcgtgggcatgcgaaggaaaaagctcttgggatatttcaaaaatattaggttgcagtgagcgtactgtcactttccatttaaccaatgcgcaaatgaaactcaatacaacaaaccgctgccaaagtatttctaaagcaattttaacaggagcaattgattgcccatactttaaaaattaataa</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <ns0:title>C0062 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/C0062_sequence"/>
+  </sbol:Sequence>
+</rdf:RDF>

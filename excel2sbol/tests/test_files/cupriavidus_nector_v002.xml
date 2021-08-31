@@ -1,0 +1,407 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/">
+  <sbol:Sequence rdf:about="http://examples.org/Pj5_u91_C2_u93__sequence/1">
+    <ns1:title>Pj5[C2] Sequence</ns1:title>
+    <sbol:displayId>Pj5_u91_C2_u93__sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>agcggatataaaaaccgttattgacacaggtggaaatttagaatatactgttagtaaacctaatggatcgaccttagatcttttaagaaggagatatacat</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_u91_C2_u93__sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/PrrsC_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>PrrsC_sequence</sbol:displayId>
+    <ns1:title>PrrsC Sequence</ns1:title>
+    <sbol:elements>ccttcaactgctctgcttggcattcgacgtctatatataaagaggacgtctcgggttgggccgacgcccacggtctcagcttaagccgaggcgccgctggatgctgtcaccaccgcgacatttgagcctcgtgcgccgcttttacggggggttcgaattatttcgcgaaatcgcttgccagtcggtcctgcgtcccttaatattcgccccctcgcagatcttttaagaaggagatatacat</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PrrsC_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Pj5_u91_C1C2_u93__sequence/1">
+    <sbol:displayId>Pj5_u91_C1C2_u93__sequence</sbol:displayId>
+    <sbol:elements>agcggatataaaaaccgttattgacacaggtggaaatttagaatatactgttagtaaacctaatggatcgaccttgaattcaaaagatctgggagaccacaacggtttccctctagaaataattttggaattcaaaagatcttttaagaaggagatatacat</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_u91_C1C2_u93__sequence"/>
+    <ns1:title>Pj5[C1C2] Sequence</ns1:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pj5/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <ns1:title>Pj5</ns1:title>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:2695836"/>
+    <sbol:sequence rdf:resource="http://examples.org/Pj5_sequence/1"/>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbol:displayId>Pj5</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <ns1:description>Constitutive promoter</ns1:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pj5_u91_C1_u93_/1">
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:2695836"/>
+    <sbol:version>1</sbol:version>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <sbh:designNotes>Contains T7 stem-loop</sbh:designNotes>
+    <sbol:sequence rdf:resource="http://examples.org/Pj5_u91_C1_u93__sequence/1"/>
+    <ns1:title>Pj5[C1]</ns1:title>
+    <sbol:displayId>Pj5_u91_C1_u93_</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_u91_C1_u93_"/>
+    <ns1:description>Engineered constitutive promoter</ns1:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pj5_u91_A1C1C2_u93_/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/Composite/1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <sbh:designNotes>Contains RBS, T7 stem-loop, mutations</sbh:designNotes>
+    <sbol:displayId>Pj5_u91_A1C1C2_u93_</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <sbol:sequence rdf:resource="http://examples.org/Pj5_u91_A1C1C2_u93__sequence/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns1:title>Pj5[A1C1C2]</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_u91_A1C1C2_u93_"/>
+    <ns1:description>Engineered constitutive promoter</ns1:description>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:2695836"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Pj5_u91_A3C2_u93__sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_u91_A3C2_u93__sequence"/>
+    <sbol:version>1</sbol:version>
+    <ns1:title>Pj5[A3C2] Sequence</ns1:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>agcggatataaaaaccgttattgacacaggtggaaatttagaatatactgttagtaaacctaatggatcgacctagatcttttaagaaggagatatacat</sbol:elements>
+    <sbol:displayId>Pj5_u91_A3C2_u93__sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/PrrsC_u91_D4_u93_/1">
+    <sbh:designNotes>Contains RBS</sbh:designNotes>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:description>Engineered constitutive promoter</ns1:description>
+    <ns1:title>PrrsC[D4]</ns1:title>
+    <sbol:displayId>PrrsC_u91_D4_u93_</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/Composite/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <sbol:sequence rdf:resource="http://examples.org/PrrsC_u91_D4_u93__sequence/1"/>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PrrsC_u91_D4_u93_"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pj5_u91_C1C2_u93_/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_u91_C1C2_u93_"/>
+    <sbol:sequence rdf:resource="http://examples.org/Pj5_u91_C1C2_u93__sequence/1"/>
+    <sbol:displayId>Pj5_u91_C1C2_u93_</sbol:displayId>
+    <ns1:title>Pj5[C1C2]</ns1:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <ns1:description>Engineered constitutive promoter</ns1:description>
+    <sbh:designNotes>Contains RBS, T7 stem-loop</sbh:designNotes>
+    <sbol:version>1</sbol:version>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/Composite/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:2695836"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Pj5_u91_A1C1C2_u93__sequence/1">
+    <ns1:title>Pj5[A1C1C2] Sequence</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_u91_A1C1C2_u93__sequence"/>
+    <sbol:elements>agcggatataaaaaccgttattgacacaggtggaaatttaaaatatactgttagtaaacctaatggatcgaccttgaattcaaaagatctgggagaccacaacggtttccctctagaaataattttggaattcaaaagatcttttaagaaggagatatacat</sbol:elements>
+    <sbol:displayId>Pj5_u91_A1C1C2_u93__sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Pj5_u91_A1D6bC1C2_u93__sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>agcggatataaaaaccgttattgacacaggtggaaatttaaaatatactgttagtaaacctaatggatcgaccttttagtacctgatactaattagtacctgatactaagaattcaaaagatctgggagaccacaacggtttccctctagaaataattttggaattcaaaagatcttttaagaaggagatatacat</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_u91_A1D6bC1C2_u93__sequence"/>
+    <sbol:displayId>Pj5_u91_A1D6bC1C2_u93__sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns1:title>Pj5[A1D6bC1C2] Sequence</ns1:title>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/PrrsC_u91_D4_u93__sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PrrsC_u91_D4_u93__sequence"/>
+    <sbol:elements>ccttcaactgctctgcttggcattcgacgtctatatataaagaggacgtctcgggttgggccgacgcccacggtctcagcttaagccgaggcgccgctggatgctgtcaccaccgcgacatttgagcctcgtgcgccgcttttacggggggttcgaattatttcgcgaaatcgcttgccattagtacctgatactaataatattcgccccctcgcagatcttttaagaaggagatatacat</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>PrrsC_u91_D4_u93__sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns1:title>PrrsC[D4] Sequence</ns1:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pj5_u91_C2_u93_/1">
+    <sbh:designNotes>Contains RBS</sbh:designNotes>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_u91_C2_u93_"/>
+    <sbol:displayId>Pj5_u91_C2_u93_</sbol:displayId>
+    <ns1:description>Engineered constitutive promoter</ns1:description>
+    <sbol:sequence rdf:resource="http://examples.org/Pj5_u91_C2_u93__sequence/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:2695836"/>
+    <sbol:version>1</sbol:version>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/Composite/1"/>
+    <ns1:title>Pj5[C2]</ns1:title>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Pg25_sequence/1">
+    <sbol:elements>tatggaaaaataaaaatttcttgataaaattttccaatactattataatattgttattaaagaggagaaattaac</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pg25_sequence"/>
+    <ns1:title>Pg25 Sequence</ns1:title>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>Pg25_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/PrrsC_u91_D6_u93__sequence/1">
+    <sbol:elements>ccttcaactgctctgcttggcattcgacgtctatatataaagaggacgtctcgggttgggccgacgcccacggtctcagcttaagccgaggcgccgctggatgctgtcaccaccgcgacatttgagcctcgtgcgccgcttttacggggggttcgaattatttcgcgaaatcgcttgccagtcggtcctgcgtcccttaatattcgccccctcgcttagtacctgatactaaagatcttttaagaaggagatatacat</sbol:elements>
+    <ns1:title>PrrsC[D6] Sequence</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PrrsC_u91_D6_u93__sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>PrrsC_u91_D6_u93__sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pg25_u91_D1_u93_/1">
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <ns1:title>Pg25[D1]</ns1:title>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/Composite/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Pg25_u91_D1_u93__sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pg25_u91_D1_u93_"/>
+    <sbol:displayId>Pg25_u91_D1_u93_</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns1:description>Engineered constitutive promoter</ns1:description>
+    <sbh:designNotes>Hybrid of identical promoters</sbh:designNotes>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:2695836"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/PrrsC/1">
+    <ns1:description>Constitutive promoter</ns1:description>
+    <sbol:sequence rdf:resource="http://examples.org/PrrsC_sequence/1"/>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:title>PrrsC</ns1:title>
+    <sbol:version>1</sbol:version>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PrrsC"/>
+    <sbol:displayId>PrrsC</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <sbh:designNotes>Contains RBS</sbh:designNotes>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/PphaC1_u91_A1_u93__sequence/1">
+    <sbol:displayId>PphaC1_u91_A1_u93__sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns1:title>PphaC1[A1] Sequence</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PphaC1_u91_A1_u93__sequence"/>
+    <sbol:elements>caatggccacgatgtacatcaaaaattcatccttctcgcctatgctctggggcctcggcagatgcgagcgctgcataccgtccggtaggtcgggaagcgtgcagtgccgaggcggattcccgcattcggcgcgcgtgcgttgcaaggcaacaatggactcaaatgtctcggaatcgctgacgattcccaggtttctccggcaagcatagcgcatggcgtctccatgcgagaatgtcgcgcttgccggataaaaggggagccgctatcggaatggacgcaagccacggccgcagcaggtgcggtcgagggcttccagccagttccagggcagatgtgccggcagaccctcccgctttgggggaggcgcaagccgggtccattcggatagcatctccccatgcaaagtgccggccagggcaatgcccggagccggttcgaatagtgacggcagagagacaatcaaatc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pg25_u91_C2_u93_/1">
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/Composite/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Pg25_u91_C2_u93__sequence/1"/>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbh:designNotes>Contains RBS</sbh:designNotes>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pg25_u91_C2_u93_"/>
+    <ns1:title>Pg25[C2]</ns1:title>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:description>Engineered constitutive promoter</ns1:description>
+    <sbol:displayId>Pg25_u91_C2_u93_</sbol:displayId>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:2695836"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/PrrsC_u91_D6_u93_/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PrrsC_u91_D6_u93_"/>
+    <ns1:description>Engineered constitutive promoter</ns1:description>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbol:displayId>PrrsC_u91_D6_u93_</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <sbol:sequence rdf:resource="http://examples.org/PrrsC_u91_D6_u93__sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:designNotes>Contains RBS and fapO operator</sbh:designNotes>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/Composite/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <ns1:title>PrrsC[D6]</ns1:title>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/PphaC1/1">
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PphaC1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <ns1:title>PphaC1</ns1:title>
+    <sbol:displayId>PphaC1</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:designNotes>Contains RBS</sbh:designNotes>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <sbol:sequence rdf:resource="http://examples.org/PphaC1_sequence/1"/>
+    <ns1:description>Constitutive promoter</ns1:description>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/PphaC1_sequence/1">
+    <sbol:elements>caatggccacgatgtacatcaaaaattcatccttctcgcctatgctctggggcctcggcagatgcgagcgctgcataccgtccggtaggtcgggaagcgtgcagtgccgaggcggattcccgcattgacagcgcgtgcgttgcaaggcaacaatggactcaaatgtctcggaatcgctgacgattcccaggtttctccggcaagcatagcgcatggcgtctccatgcgagaatgtcgcgcttgccggataaaaggggagccgctatcggaatggacgcaagccacggccgcagcaggtgcggtcgagggcttccagccagttccagggcagatgtgccggcagaccctcccgctttgggggaggcgcaagccgggtccattcggatagcatctccccatgcaaagtgccggccagggcaatgcccggagccggttcgaatagtgacggcagagagacaatcaaatc</sbol:elements>
+    <sbol:displayId>PphaC1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns1:title>PphaC1 Sequence</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PphaC1_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Pj5_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>Pj5_sequence</sbol:displayId>
+    <sbol:elements>agcggatataaaaaccgttattgacacaggtggaaatttagaatatactgttagtaaacctaatggatcgacctt</sbol:elements>
+    <ns1:title>Pj5 Sequence</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pg25/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pg25"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <sbol:sequence rdf:resource="http://examples.org/Pg25_sequence/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:2695836"/>
+    <ns1:description>Constitutive promoter</ns1:description>
+    <ns1:title>Pg25</ns1:title>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbol:displayId>Pg25</sbol:displayId>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/direct/1"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/PphaC1_u91_A1_u93_/1">
+    <sbh:designNotes>Contains RBS</sbh:designNotes>
+    <ns1:description>Engineered constitutive promoter</ns1:description>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <sbol:displayId>PphaC1_u91_A1_u93_</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <ns1:title>PphaC1[A1]</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PphaC1_u91_A1_u93_"/>
+    <sbol:sequence rdf:resource="http://examples.org/PphaC1_u91_A1_u93__sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pj5_u91_A1D6bC1C2_u93_/1">
+    <sbol:sequence rdf:resource="http://examples.org/Pj5_u91_A1D6bC1C2_u93__sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:designNotes>Contains RBS, T7 stem-loop, mutations, regulatory element</sbh:designNotes>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <ns1:description>Engineered constitutive promoter</ns1:description>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_u91_A1D6bC1C2_u93_"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/Composite/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:2695836"/>
+    <sbol:version>1</sbol:version>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbol:displayId>Pj5_u91_A1D6bC1C2_u93_</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <ns1:title>Pj5[A1D6bC1C2]</ns1:title>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pj5_u91_A3C2_u93_/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_u91_A3C2_u93_"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:2695836"/>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/mutations/1"/>
+    <sbol:displayId>Pj5_u91_A3C2_u93_</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <sbh:designNotes>Contains RBS</sbh:designNotes>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Pj5_u91_A3C2_u93__sequence/1"/>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <ns1:description>Engineered constitutive promoter</ns1:description>
+    <ns1:title>Pj5[A3C2]</ns1:title>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Pg25_u91_D1_u93__sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pg25_u91_D1_u93__sequence"/>
+    <sbol:elements>tatggaaaaataaaaatttcttgataaaattttccaatactattataatattgtttatggaaaaataaaaatttcttgataaaattttccaatactattataatattgttattaaagaggagaaattaac</sbol:elements>
+    <sbol:displayId>Pg25_u91_D1_u93__sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns1:title>Pg25[D1] Sequence</ns1:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Pj5_u91_A1D6aC1C2_u93__sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_u91_A1D6aC1C2_u93__sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>agcggatataaaaaccgttattgacacaggtggaaatttaaaatatactgttagtaaacctaatggatcgaccttttagtacctgatactaagaattcaaaagatctgggagaccacaacggtttccctctagaaataattttggaattcaaaagatcttttaagaaggagatatacat</sbol:elements>
+    <sbol:displayId>Pj5_u91_A1D6aC1C2_u93__sequence</sbol:displayId>
+    <ns1:title>Pj5[A1D6aC1C2] Sequence</ns1:title>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pj5_u91_A1D6aC1C2_u93_/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/Composite/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Pj5_u91_A1D6aC1C2_u93__sequence/1"/>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:2695836"/>
+    <sbol:displayId>Pj5_u91_A1D6aC1C2_u93_</sbol:displayId>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <ns1:title>Pj5[A1D6aC1C2]</ns1:title>
+    <sbh:designNotes>Contains RBS, T7 stem-loop, mutations, regulatory element</sbh:designNotes>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_u91_A1D6aC1C2_u93_"/>
+    <ns1:description>Engineered constitutive promoter</ns1:description>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Pj5_u91_C1_u93__sequence/1">
+    <ns1:title>Pj5[C1] Sequence</ns1:title>
+    <sbol:elements>agcggatataaaaaccgttattgacacaggtggaaatttagaatatactgttagtaaacctaatggatcgaccttgaattcaaaagatctgggagaccacaacggtttccctctagaaataattttggaattcaaa</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pj5_u91_C1_u93__sequence"/>
+    <sbol:displayId>Pj5_u91_C1_u93__sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Pg25_u91_D1C2_u93__sequence/1">
+    <ns1:title>Pg25[D1C2] Sequence</ns1:title>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>tatggaaaaataaaaatttcttgataaaattttccaatactattataatattgtttatggaaaaataaaaatttcttgataaaattttccaatactattataatattgttattaaagaggagaaattaacagatcttttaagaaggagatatacat</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pg25_u91_D1C2_u93__sequence"/>
+    <sbol:displayId>Pg25_u91_D1C2_u93__sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Pg25_u91_C2_u93__sequence/1">
+    <sbol:elements>tatggaaaaataaaaatttcttgataaaattttccaatactattataatattgttattaaagaggagaaattaacagatcttttaagaaggagatatacat</sbol:elements>
+    <ns1:title>Pg25[C2] Sequence</ns1:title>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pg25_u91_C2_u93__sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Pg25_u91_C2_u93__sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/Pg25_u91_D1C2_u93_/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Pg25_u91_D1C2_u93_"/>
+    <ns1:title>Pg25[D1C2]</ns1:title>
+    <sbh:designNotes>Contains RBS</sbh:designNotes>
+    <sbh:sourceOrganism rdf:resource="https://identifiers.org/taxonomy:2695836"/>
+    <ns1:description>Engineered constitutive promoter</ns1:description>
+    <obo:OBI_0001617>29949349</obo:OBI_0001617>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/Excel2SBOL/Composite/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:targetOrganism rdf:resource="https://identifiers.org/taxonomy:106590"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Pg25_u91_D1C2_u93__sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubmed.ncbi.nlm.nih.gov/29949349"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:displayId>Pg25_u91_D1C2_u93_</sbol:displayId>
+  </sbol:ComponentDefinition>
+</rdf:RDF>
